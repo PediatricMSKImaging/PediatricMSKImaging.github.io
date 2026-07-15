@@ -1,0 +1,8 @@
+name: pediatric-msk-lab-site
+channels:
+  - conda-forge
+dependencies:
+  - ruby=3.3
+  - cxx-compiler
+  - make
+  - pkg-config

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" role="img" aria-labelledby="title desc">
+  <title id="title">Citation placeholder for pediatric bone imaging</title>
+  <desc id="desc">Bright abstract art intended to be replaced with a publication image.</desc>
+  <rect width="1000" height="750" fill="#eef8ff"/>
+  <circle cx="780" cy="180" r="110" fill="#fff3b8"/>
+  <circle cx="220" cy="580" r="140" fill="#d6f8ea"/>
+  <path d="M120 610c130-100 250-120 380-60s220 80 380 10v190H120z" fill="#b4d8ff"/>
+  <rect x="130" y="130" width="330" height="240" rx="36" fill="#ffffff" opacity=".92"/>
+  <path d="M210 250h170" stroke="#1f78ff" stroke-width="18" stroke-linecap="round"/>
+  <path d="M210 295h120" stroke="#7bd6ff" stroke-width="14" stroke-linecap="round"/>
+</svg>

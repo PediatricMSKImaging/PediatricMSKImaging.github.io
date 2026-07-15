@@ -1,14 +1,14 @@
 ---
 title: Projects
-nav:
-  order: 2
-  tooltip: Software, datasets, and more
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+<div class="subpage-hero subpage-hero--research">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<h1>Projects</h1>
+
+<p>Featured research projects and future project summaries for the Pediatric Musculoskeletal Imaging Lab.</p>
+
+</div>
 
 {% include tags.html tags="publication, resource, website" %}
 

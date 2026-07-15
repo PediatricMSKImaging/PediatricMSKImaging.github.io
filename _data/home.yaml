@@ -1,0 +1,50 @@
+hero:
+  headline:
+    - text: Imaging today
+      accent: false
+    - text: for
+      accent: false
+    - text: stronger
+      accent: true
+    - text: tomorrows
+      accent: true
+  lede: We investigate how musculoskeletal tissues grow and respond using advanced imaging and experimental models—so kids can thrive.
+  circles:
+    - image: images/home-circle-lacunae.png
+      alt: MicroCT image of bone lacunae
+      style: network
+    - image: images/home-circle-knee.png
+      alt: Knee imaging used to study pediatric musculoskeletal health
+      style: child
+    - image: images/home-circle-jia-xray.png
+      alt: Pediatric hand x-ray for juvenile idiopathic arthritis imaging
+      style: microct
+    - image: images/home-circle-hrpqct.png
+      alt: HR-pQCT scanner used for musculoskeletal imaging
+      style: mri
+    - image: images/home-circle-tibia.png
+      alt: High-resolution tibia image from preclinical bone imaging
+      style: scanner
+  primary_button:
+    text: OUR RESEARCH
+    link: research
+  secondary_button:
+    text: JOIN OUR LAB
+    link: join
+highlights:
+  - title: Clinical Cohorts
+    text: Following children and adolescents over time.
+    icon: fa-solid fa-children
+    link: research/clinical
+  - title: Multimodal Imaging
+    text: Across scales, modalities, and models.
+    icon: fa-solid fa-layer-group
+    link: research/imaging-infrastructure
+  - title: Preclinical Research
+    text: Mechanobiology in action during growth.
+    icon: fa-solid fa-bone
+    link: research/preclinical
+  - title: Stronger Impact
+    text: Better bone health for life.
+    icon: fa-solid fa-hand-holding-heart
+    link: publications

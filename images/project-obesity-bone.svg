@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Project placeholder for childhood obesity and bone strength</title>
+  <desc id="desc">Bright scientific illustration intended to be replaced with a project image.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4fbff"/>
+      <stop offset="100%" stop-color="#e0f4ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="950" cy="150" r="130" fill="#fff1b6"/>
+  <circle cx="220" cy="560" r="150" fill="#d5f7ea"/>
+  <rect x="160" y="150" width="880" height="500" rx="44" fill="#ffffff" opacity=".92"/>
+  <path d="M280 510c70-150 170-230 300-230s240 80 330 230" fill="none" stroke="#1f78ff" stroke-width="20" stroke-linecap="round"/>
+  <path d="M350 500c50-90 110-135 180-135s135 45 185 135" fill="none" stroke="#7bd6ff" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="380" cy="360" r="46" fill="#ff8da1"/>
+  <circle cx="530" cy="315" r="64" fill="#ffd166"/>
+  <circle cx="700" cy="360" r="52" fill="#4ade80"/>
+  <circle cx="835" cy="330" r="44" fill="#a78bfa"/>
+  <path d="M250 610h700" stroke="#b4d8ff" stroke-width="16" stroke-linecap="round"/>
+</svg>

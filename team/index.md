@@ -2,34 +2,52 @@
 title: Team
 nav:
   order: 3
-  tooltip: About our team
+  tooltip: Lab members and alumni
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+<div class="team-intro-band">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<h1>Team</h1>
 
-{% include section.html %}
+<p>Meet the people behind the lab, including the principal investigator, current members, and alumni.</p>
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
-
-{% include section.html background="images/background.jpg" dark=true %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</div>
 
 {% include section.html %}
 
-{% capture content %}
+<div class="team-page">
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+<div class="team-photo-callout">
+  <div>
+    <strong>Lab Photos</strong>
+    <span>Team moments, lab life, and event snapshots.</span>
+  </div>
+  <a href="{{ 'team/lab-photos' | relative_url }}">View Lab Photos</a>
+</div>
 
-{% endcapture %}
+<h2>Principal Investigator</h2>
 
-{% include grid.html style="square" content=content %}
+<div class="team-section team-section--pi">
+{% include list.html data="members" component="portrait" filter="role == 'pi'" style="team-featured" %}
+</div>
+
+<h2>Current Members</h2>
+
+<div class="team-grid team-grid--current">
+{% include list.html data="members" component="portrait" filter="status == 'current' and role == 'research-coordinator'" style="team-card" %}
+{% include list.html data="members" component="portrait" filter="status == 'current' and role == 'pediatric-mrt'" style="team-card" %}
+{% include list.html data="members" component="portrait" filter="status == 'current' and role == 'postdoc'" style="team-card" %}
+{% include list.html data="members" component="portrait" filter="status == 'current' and role == 'phd'" style="team-card" %}
+{% include list.html data="members" component="portrait" filter="status == 'current' and role == 'masters'" style="team-card" %}
+{% include list.html data="members" component="portrait" filter="status == 'current' and role == 'undergrad'" style="team-card" %}
+</div>
+
+<h2>Past Members</h2>
+
+<div class="team-grid team-grid--past">
+{% include list.html data="members" component="portrait" filter="status == 'past' and role == 'postdoc'" style="team-alumni" %}
+{% include list.html data="members" component="portrait" filter="status == 'past' and (role == 'phd' or role == 'masters')" style="team-alumni" %}
+{% include list.html data="members" component="portrait" filter="status == 'past' and role == 'undergrad'" style="team-alumni" %}
+</div>
+
+</div>

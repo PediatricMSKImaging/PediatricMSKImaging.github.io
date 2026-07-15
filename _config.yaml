@@ -1,19 +1,19 @@
 # site properties and page defaults
-title: dwhittier
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
-header: images/background.jpg
-footer: images/background.jpg
+title: Pediatric Musculoskeletal Imaging Lab
+subtitle: University of Calgary
+description: We use advanced and multimodal imaging to understand how growing bones develop, adapt, and stay healthy.
+header: images/hero-placeholder.svg
+footer: images/hero-placeholder.svg
 proofer: false
+logo: images/lab-logo-bear.png
+logo-text: false
 
 # site social media and other links
 links:
-  email: contact@dwhittier.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: dwhittier
-  twitter: dwhittier
-  youtube: dwhittier
+  email: pediatricmsk@ucalgary.ca
+  google-scholar: https://scholar.google.com/citations?hl=en&user=MKDRadIAAAAJ
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/?term=Whittier+DE
+  profile: https://profiles.ucalgary.ca/danielle-whittier
 
 ### jekyll settings
 
@@ -45,11 +45,9 @@ collections:
 
 # jekyll plugins
 plugins:
-  - jekyll-spaceship
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-feed
-  - jekyll-last-modified-at
 
 # code block syntax highlighting
 highlighter: rouge
@@ -71,9 +69,3 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
-
-# configure jekyll spaceship
-jekyll-spaceship:
-  mathjax-processor:
-    src:
-      - https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js

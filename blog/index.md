@@ -1,21 +1,11 @@
 ---
 title: Blog
-nav:
-  order: 4
-  tooltip: Musings and miscellany
 ---
 
-# {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
+<div class="subpage-hero subpage-hero--news">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<h1>Blog</h1>
 
-{% include section.html %}
+<p>This page is kept for future lab posts, but it no longer appears in the main navigation.</p>
 
-{% include search-box.html %}
-
-{% include tags.html tags=site.tags %}
-
-{% include search-info.html %}
-
-{% include list.html data="posts" component="post-excerpt" %}
+</div>

@@ -2,6 +2,10 @@
 
 # team member roles
 
+pi:
+  icon: fa-solid fa-microscope
+  description: Principal Investigator
+
 principal-investigator:
   icon: fa-solid fa-microscope
   description: Principal Investigator
@@ -14,9 +18,21 @@ phd:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
 
+masters:
+  icon: fa-solid fa-graduation-cap
+  description: Master's Student
+
 undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
+
+research-coordinator:
+  icon: fa-solid fa-clipboard-check
+  description: Research Coordinator
+
+pediatric-mrt:
+  icon: fa-solid fa-x-ray
+  description: Pediatric MRT
 
 programmer:
   icon: fa-solid fa-code
@@ -82,7 +98,19 @@ google-scholar:
   icon: fa-brands fa-google
   text: Google Scholar
   tooltip: Google Scholar
-  link: https://scholar.google.com/citations?user=$VALUE
+  link: $VALUE
+
+pubmed:
+  icon: fa-solid fa-book-medical
+  text: PubMed
+  tooltip: PubMed
+  link: $VALUE
+
+profile:
+  icon: fa-solid fa-id-card
+  text: Profile
+  tooltip: University profile
+  link: $VALUE
 
 github:
   icon: fa-brands fa-github
@@ -124,7 +152,7 @@ linkedin:
   icon: fa-brands fa-linkedin
   text: LinkedIn
   tooltip: LinkedIn
-  link: https://www.linkedin.com/in/$VALUE
+  link: $VALUE
 
 # alerts
 

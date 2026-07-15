@@ -1,47 +1,71 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Bone mechanoregulation during growth
+  subtitle: Preclinical bone mechanobiology
+  pillar: Preclinical research
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: images/project-mechanoregulation.svg
+  description: This NSERC-funded project investigates how mechanical forces influence bone growth, from cellular-level changes to whole-bone development.
+  methods:
+    - Murine tibia loading
+    - microCT imaging
+    - Histology
+    - Mechanical assessment
+  recruiting: Graduate and undergraduate honours students
+  funding: NSERC
   tags:
-    - resource
+    - preclinical
+    - biomechanics
+    - bone-growth
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: In vivo assessment of pediatric fracture healing
+  subtitle: Longitudinal imaging of bone repair during growth
+  pillar: Clinical research
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: images/project-fracture-healing.svg
+  description: This SickKids ECR Operating Grant-funded project investigates how bone repairs itself during pubertal growth following fracture and why healing differs between individuals.
+  methods:
+    - HR-pQCT imaging
+    - Longitudinal cohort follow-up
+    - Bone strength assessment
+    - Muscle and growth measures
+  recruiting: Cohort study participants and trainees interested in pediatric imaging
+  funding: SickKids ECR Operating Grant
   tags:
-    - resource
+    - clinical
+    - fracture-healing
+    - hr-pqct
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: The impact of childhood obesity on bone strength and growth
+  subtitle: Imaging and modelling bone adaptation in children and adolescents
+  pillar: Clinical research
+  group: featured
+  image: images/project-obesity-bone.svg
+  description: This project uses advanced musculoskeletal imaging and computational modelling to study why children with obesity can have elevated fracture risk despite higher bone mineral density.
+  methods:
+    - HR-pQCT imaging
+    - Computational modelling
+    - Body composition measures
+    - Biomechanical analysis
+  recruiting: Trainees interested in imaging, computation, and pediatric bone health
+  funding: Add funding source when ready
   tags:
-    - resource
-    - publication
+    - clinical
+    - computation
+    - obesity
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Advanced imaging to monitor juvenile idiopathic arthritis
+  subtitle: Earlier insight into joint damage and growing bone
+  pillar: Clinical research
+  group: featured
+  image: images/project-jia-imaging.svg
+  description: This project uses multimodal imaging to study bone microarchitecture and erosions in juvenile idiopathic arthritis, with the goal of improving diagnosis, monitoring, and treatment.
+  methods:
+    - High-resolution imaging
+    - Clinical imaging comparison
+    - Bone microarchitecture analysis
+    - Longitudinal assessment
+  recruiting: Collaborators and trainees interested in pediatric rheumatology imaging
+  funding: Add funding source when ready
   tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+    - clinical
+    - arthritis
+    - multimodal-imaging

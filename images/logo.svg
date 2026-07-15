@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -60 80 100">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -60 80 100" role="img" aria-labelledby="title">
+  <title id="title">Replace with the Pediatric Musculoskeletal Imaging Lab logo</title>
   <style>
     .bubble {
       animation: float 2s ease-out both infinite var(--delay);

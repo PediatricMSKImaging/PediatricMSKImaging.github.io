@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Replace with a team member portrait</title>
+  <desc id="desc">A simple bright avatar placeholder for future team photos.</desc>
+  <rect width="800" height="800" rx="48" fill="#fff9ec"/>
+  <circle cx="400" cy="320" r="130" fill="#f6b51b" opacity=".78"/>
+  <path d="M190 710c35-150 145-230 210-230s175 80 210 230" fill="#d71920" opacity=".82"/>
+  <circle cx="400" cy="300" r="92" fill="#ffffff" opacity=".9"/>
+  <path d="M285 675c25-94 99-150 115-150s90 56 115 150" fill="#fff4da" opacity=".9"/>
+</svg>

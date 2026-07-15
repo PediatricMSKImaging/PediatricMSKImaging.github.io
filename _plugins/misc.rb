@@ -1,5 +1,4 @@
 require 'liquid'
-require 'html-proofer'
 
 module Jekyll
   module MiscFilters
@@ -92,6 +91,13 @@ module Jekyll
 
     Jekyll::Hooks.register(:site, :post_write, priority: priority) do |site|
       if not site.config["proofer"] == false
+        begin
+          require 'html-proofer'
+        rescue LoadError
+          STDERR.puts "html-proofer is not installed; skipping link proofing"
+          next
+        end
+
         options = {
           allow_missing_href: true,
           enforce_https: false,

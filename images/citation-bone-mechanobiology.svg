@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" role="img" aria-labelledby="title desc">
+  <title id="title">Citation placeholder for bone mechanobiology</title>
+  <desc id="desc">Bright abstract art intended to be replaced with a publication image.</desc>
+  <rect width="1000" height="750" fill="#f1fbff"/>
+  <circle cx="780" cy="170" r="120" fill="#fff1b6"/>
+  <circle cx="200" cy="560" r="150" fill="#d5f7ea"/>
+  <path d="M100 600c140-120 250-150 380-90s220 100 420 20v220H100z" fill="#c2e0ff"/>
+  <rect x="140" y="120" width="320" height="250" rx="36" fill="#ffffff" opacity=".94"/>
+  <path d="M205 255c40-45 80-65 120-65s80 20 120 65" fill="none" stroke="#1f78ff" stroke-width="16" stroke-linecap="round"/>
+  <path d="M205 305c40 45 80 65 120 65s80-20 120-65" fill="none" stroke="#ff8da1" stroke-width="14" stroke-linecap="round"/>
+</svg>

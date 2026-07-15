@@ -1,27 +1,37 @@
 ---
 title: Research
 nav:
-  order: 1
-  tooltip: Published works
+  order: 2
+  tooltip: Research themes and projects
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+<div class="subpage-hero subpage-hero--research">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+<h1>Research</h1>
 
-{% include section.html %}
+<p>Our work connects clinical imaging and preclinical bone mechanobiology to understand how growing bones develop, adapt, and recover.</p>
 
-## Highlighted
-
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+</div>
 
 {% include section.html %}
 
-## All
+## Research Pillars
 
-{% include search-box.html %}
+<div class="link-grid">
+  <a href="{{ 'research/clinical' | relative_url }}">
+    <strong>Clinical Research</strong>
+    <span>Pediatric cohorts, fracture healing, obesity, and JIA imaging.</span>
+  </a>
+  <a href="{{ 'research/preclinical' | relative_url }}">
+    <strong>Preclinical Research</strong>
+    <span>Experimental models of bone mechanobiology during growth.</span>
+  </a>
+  <a href="{{ 'research/imaging-infrastructure' | relative_url }}">
+    <strong>Imaging & Infrastructure</strong>
+    <span>Imaging platforms, analysis workflows, and computational tools.</span>
+  </a>
+</div>
 
-{% include search-info.html %}
+## Projects
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include list.html component="card" data="projects" filter="group == 'featured'" %}
