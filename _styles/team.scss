@@ -17,7 +17,7 @@ main > section:has(.team-intro-band) {
   background:
     radial-gradient(circle at 0 10%, rgba(255, 107, 87, 0.12) 0 120px, transparent 121px),
     radial-gradient(circle at 92% 0, rgba(246, 181, 27, 0.2) 0 130px, transparent 131px),
-    linear-gradient(120deg, #fffdf8 0%, #fffaf0 100%) !important;
+    #ffffff !important;
 }
 
 main > section:has(.team-intro-band)::before,
