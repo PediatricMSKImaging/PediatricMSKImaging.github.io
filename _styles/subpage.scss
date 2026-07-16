@@ -135,36 +135,18 @@ main > section:has(.subpage-hero--photos)::before {
 }
 
 main > section:has(.subpage-hero--contact)::before {
-  width: 74px;
-  height: 74px;
-  border: 5px solid var(--primary);
-  border-radius: 60% 60% 60% 0;
-  background: transparent;
-  background-image: none;
+  width: 96px;
+  height: 96px;
+  background-image: url("/images/doodle-map-pin.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   opacity: 0.9;
-  transform: rotate(-45deg);
-}
-
-main > section:has(.subpage-hero--contact)::before {
-  box-shadow:
-    18px 18px 0 -10px #fffdf8,
-    18px 18px 0 -5px var(--secondary);
+  transform: rotate(-7deg);
 }
 
 main > section:has(.subpage-hero--contact) .subpage-hero::before {
-  content: "";
-  position: absolute;
-  left: max(-160px, -22vw);
-  top: 36px;
-  width: 78px;
-  height: 46px;
-  pointer-events: none;
-  border: 4px solid var(--secondary);
-  border-radius: 18px;
-  background:
-    linear-gradient(90deg, transparent 31%, var(--secondary) 31% 35%, transparent 35% 65%, var(--secondary) 65% 69%, transparent 69%),
-    linear-gradient(15deg, transparent 47%, var(--primary) 48% 52%, transparent 53%);
-  transform: rotate(-9deg);
+  display: none;
 }
 
 main > section:has(.subpage-hero--join)::after {
