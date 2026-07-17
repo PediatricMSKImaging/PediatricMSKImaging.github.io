@@ -9,6 +9,6 @@ links:
   linkedin: https://www.linkedin.com/in/justin-f-young/
 ---
 
-Justin Young completed a Bachelor’s Semester Project with the Pediatric Musculoskeletal Imaging Lab during Winter 2026 while at the University of Calgary.
+Justin is a Biomedical Engineering graduate from the University of Calgary. During the Winter 2026 semester, he worked with Magnetic Resonance Imaging (MRI) scans to analyze bone marrow adipose tissue (BMAT) quantities and femoral neck widths in pediatric patients.
 
-Project: Segmentation of femoral bone from ZTE MRI scans.
+Education: Bachelor of Science in Biomedical Engineering, University of Calgary.

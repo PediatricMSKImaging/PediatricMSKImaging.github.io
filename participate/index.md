@@ -21,14 +21,41 @@ If you are interested in a study or want to help shape future research, please c
 
 We are always happy to hear from families who are interested in learning more about studies that may be a fit for their child or teen.
 
-## Become a Patient Partner
+<div class="study-panel-grid">
+  <a class="study-panel" href="https://research.ucalgary.ca/participate/body-composition-and-bone-growth-study-reb25-1511" target="_blank" rel="noopener noreferrer">
+    <img src="{{ 'images/home-hex-hrpqct-scan.jpg' | relative_url }}" alt="HR-pQCT imaging scanner used in pediatric bone research">
+    <span class="study-panel__text">
+      <strong>Body Composition and Bone Growth Study</strong>
+      <span>Help us understand how body composition relates to bone growth and strength in children and adolescents.</span>
+    </span>
+  </a>
 
-Patient partners help shape our research by sharing lived experience, priorities, and feedback on how we communicate study goals and results.
+  <a class="study-panel" href="https://research.ucalgary.ca/participate/quantification-bone-marrow-adipose-tissue-paediatric-populations-reb23-1048" target="_blank" rel="noopener noreferrer">
+    <img src="{{ 'images/study-bone-marrow-adipose.jpg' | relative_url }}" alt="Bone marrow adipose tissue imaging example">
+    <span class="study-panel__text">
+      <strong>Bone Marrow Adipose Tissue in Paediatric Populations</strong>
+      <span>Join a study using advanced imaging to measure bone marrow fat during pediatric growth and development.</span>
+    </span>
+  </a>
+</div>
 
 ## What to Expect
 
-We will explain the study purpose, what participation involves, and any risks or benefits in plain language before you decide whether to take part.
+Our lab is located in the Health Research Innovation Centre at the Foothills Medical Centre campus. These guides can help you plan your visit.
 
-## Contact Us
+<div class="visit-panel">
+  <img src="{{ 'images/participate/lab-welcome-space.jpg' | relative_url }}" alt="Welcoming seating area in the Pediatric Musculoskeletal Imaging Lab">
+  <div>
+    <h4>Planning Your Visit</h4>
+    <p>Review parking and wayfinding details before your appointment, including different routes for weekday and weekend visits.</p>
+    <div class="document-link-grid">
+      <a href="{{ 'documents/mojo-directions.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Participant Visit Directions</a>
+      <a href="{{ 'documents/weekend-mojo-directions.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Participant Visit Weekend Directions</a>
+      <a href="{{ 'documents/alberta-childrens-parking-map.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Children's Hospital Parking Map - MRI Only</a>
+    </div>
+  </div>
+</div>
 
-If you are interested in a study or patient partner opportunity, please reach out through the contact page and we will help connect you to the right next step.
+## Become a Patient Partner
+
+Patient partners help shape our research by sharing lived experience, priorities, and feedback on how we communicate study goals and results. If you are interested in becoming a patient partner or learning more about future opportunities, please [contact us]({{ 'contact' | relative_url }}).

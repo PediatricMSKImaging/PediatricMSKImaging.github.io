@@ -245,7 +245,7 @@ main > section:has(.team-page)::before {
 }
 
 .team-grid--current {
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .team-grid--past {
@@ -284,7 +284,7 @@ main > section:has(.team-page)::before {
 .team-page .portrait[data-style="team-alumni"] {
   align-items: center;
   display: grid;
-  grid-template-columns: 78px minmax(0, 1fr);
+  grid-template-columns: 108px minmax(0, 1fr);
   gap: 14px;
   justify-items: start;
   padding: 18px;
@@ -292,7 +292,7 @@ main > section:has(.team-page)::before {
 }
 
 .team-page .portrait[data-style="team-alumni"] {
-  grid-template-columns: 54px minmax(0, 1fr);
+  grid-template-columns: 68px minmax(0, 1fr);
   gap: 12px;
   padding: 11px 12px;
   border-radius: 14px;
@@ -302,7 +302,7 @@ main > section:has(.team-page)::before {
 .team-page .portrait-image {
   grid-row: 1 / span 3;
   margin: 0;
-  border: 7px solid rgba(255, 255, 255, 0.86);
+  border: 4px solid rgba(255, 255, 255, 0.86);
   background: radial-gradient(circle, rgba(246, 181, 27, 0.18), rgba(246, 181, 27, 0.05));
   box-shadow: none;
 }
@@ -312,13 +312,13 @@ main > section:has(.team-page)::before {
 }
 
 .team-page .portrait[data-style="team-card"] .portrait-image {
-  width: 78px;
-  padding: 9px;
+  width: 108px;
+  padding: 6px;
 }
 
 .team-page .portrait[data-style="team-alumni"] .portrait-image {
-  width: 54px;
-  padding: 7px;
+  width: 68px;
+  padding: 5px;
 }
 
 .team-page .portrait .icon {
@@ -391,6 +391,12 @@ main > section:has(.team-page)::before {
   font-size: 0.82rem;
 }
 
+@media (max-width: 1000px) {
+  .team-grid--current {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 600px) {
   .team-photo-callout {
     align-items: flex-start;
@@ -408,6 +414,10 @@ main > section:has(.team-page)::before {
 
   .team-page .portrait[data-style="team-featured"] .portrait-image {
     width: 96px;
+  }
+
+  .team-grid--current {
+    grid-template-columns: 1fr;
   }
 
   main > section:has(.team-intro-band)::before,
