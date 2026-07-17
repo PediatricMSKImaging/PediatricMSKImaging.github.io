@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" role="img" aria-labelledby="title desc">
+  <title id="title">Citation placeholder for advanced musculoskeletal imaging</title>
+  <desc id="desc">Bright abstract art intended to be replaced with a publication image.</desc>
+  <rect width="1000" height="750" fill="#eef8ff"/>
+  <circle cx="770" cy="170" r="120" fill="#fff2bf"/>
+  <circle cx="190" cy="560" r="140" fill="#d8f7ea"/>
+  <path d="M120 620c135-105 260-125 390-65s220 90 370 10v185H120z" fill="#b4d8ff"/>
+  <rect x="130" y="130" width="340" height="240" rx="36" fill="#ffffff" opacity=".92"/>
+  <circle cx="260" cy="245" r="42" fill="#1f78ff"/>
+  <circle cx="340" cy="215" r="24" fill="#7bd6ff"/>
+  <circle cx="380" cy="295" r="32" fill="#ff8da1"/>
+</svg>

@@ -1,0 +1,260 @@
+@charset "UTF-8";
+main > section:has(.subpage-hero) {
+  position: relative;
+  overflow: hidden;
+  padding-top: 34px;
+  padding-bottom: 34px;
+  background: radial-gradient(circle at 0 14%, rgba(255, 107, 87, 0.11) 0 128px, transparent 129px), radial-gradient(circle at 94% 0, rgba(215, 25, 32, 0.1) 0 132px, transparent 133px), #ffffff !important;
+}
+
+main > section:has(.subpage-hero)::before,
+main > section:has(.subpage-hero)::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+main > section:has(.subpage-hero)::before {
+  left: max(28px, (100% - 1000px) / 2);
+  top: 42px;
+  width: 104px;
+  height: 104px;
+  background-image: url("/images/doodle-rocket.svg");
+  transform: rotate(-10deg);
+}
+
+main > section:has(.subpage-hero)::after {
+  right: max(38px, (100% - 1000px) / 2 + 24px);
+  top: 48px;
+  width: 78px;
+  height: 78px;
+  background-image: url("/images/doodle-star.svg");
+  transform: rotate(12deg);
+}
+
+main > section:has(.subpage-hero) + section {
+  position: relative;
+  overflow: hidden;
+  padding-top: 22px;
+  background: radial-gradient(circle at 2% 92%, rgba(56, 189, 248, 0.12) 0 150px, transparent 151px), radial-gradient(circle at 100% 88%, rgba(255, 107, 87, 0.14) 0 180px, transparent 181px), linear-gradient(180deg, #fff5f5 0%, #fffdf8 46%, #ffffff 100%) !important;
+}
+
+main > section:has(.subpage-hero) + section::before {
+  content: "";
+  position: absolute;
+  left: -18px;
+  bottom: 64px;
+  width: 142px;
+  height: 142px;
+  pointer-events: none;
+  opacity: 0.28;
+  background-image: radial-gradient(circle, rgba(14, 165, 233, 0.4) 2px, transparent 3px);
+  background-size: 22px 22px;
+}
+
+.subpage-hero {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.subpage-hero h1 {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto 20px;
+  color: var(--dark-gray);
+  font-family: var(--display);
+  font-size: clamp(2.7rem, 6.2vw, 4.5rem);
+  font-weight: var(--regular);
+  line-height: 0.95;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.subpage-hero h1::after {
+  content: "";
+  position: absolute;
+  left: 8%;
+  right: 8%;
+  bottom: -8px;
+  height: 9px;
+  border-radius: 999px;
+  background: var(--secondary);
+  transform: rotate(-1deg);
+}
+
+.subpage-hero p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: var(--dark-gray);
+  font-size: 1.08rem;
+  line-height: 1.55;
+  text-align: center;
+}
+
+main > section:has(.subpage-hero--about)::before {
+  background-image: url("/images/doodle-star.svg");
+  transform: rotate(-18deg);
+}
+
+main > section:has(.subpage-hero--about)::after,
+main > section:has(.subpage-hero--clinical)::after,
+main > section:has(.subpage-hero--participate)::after {
+  background-image: url("/images/doodle-sparkle.svg");
+}
+
+main > section:has(.subpage-hero--research)::before,
+main > section:has(.subpage-hero--imaging)::before,
+main > section:has(.subpage-hero--publications)::before {
+  background-image: url("/images/doodle-sparkle.svg");
+}
+
+main > section:has(.subpage-hero--preclinical)::before {
+  background-image: url("/images/lab-logo-round-mouse.png");
+  opacity: 0.24;
+}
+
+main > section:has(.subpage-hero--join)::before,
+main > section:has(.subpage-hero--news)::before,
+main > section:has(.subpage-hero--photos)::before {
+  background-image: url("/images/doodle-rocket.svg");
+}
+
+main > section:has(.subpage-hero--contact)::before {
+  width: 96px;
+  height: 96px;
+  background-image: url("/images/doodle-map-pin.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
+  transform: rotate(-7deg);
+}
+
+main > section:has(.subpage-hero--contact) .subpage-hero::before {
+  display: none;
+}
+
+main > section:has(.subpage-hero--join)::after {
+  background-image: url("/images/doodle-sparkle.svg");
+}
+
+main > section:has(.subpage-hero--publications)::after,
+main > section:has(.subpage-hero--news)::after,
+main > section:has(.subpage-hero--contact)::after,
+main > section:has(.subpage-hero--photos)::after {
+  background-image: url("/images/doodle-star.svg");
+}
+
+main > section:has(.subpage-hero--preclinical) {
+  background: radial-gradient(circle at 0 14%, rgba(255, 107, 87, 0.1) 0 128px, transparent 129px), radial-gradient(circle at 94% 0, rgba(255, 107, 87, 0.16) 0 132px, transparent 133px), #ffffff !important;
+}
+
+main > section:has(.subpage-hero--participate),
+main > section:has(.subpage-hero--contact) {
+  background: radial-gradient(circle at 0 14%, rgba(56, 189, 248, 0.12) 0 128px, transparent 129px), radial-gradient(circle at 94% 0, rgba(215, 25, 32, 0.1) 0 132px, transparent 133px), #ffffff !important;
+}
+
+main > section:has(.subpage-hero) + section h2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+  border: 0;
+  color: var(--primary);
+  font-weight: var(--bold);
+  letter-spacing: 0;
+}
+
+main > section:has(.subpage-hero) + section h2::after {
+  content: "✦";
+  color: var(--secondary);
+  font-size: 1.15em;
+  line-height: 1;
+}
+
+main > section:has(.subpage-hero) + section :is(.card, .citation, .feature, .link-grid a, iframe) {
+  border: 1px solid rgba(23, 25, 31, 0.08);
+  box-shadow: 0 16px 42px rgba(90, 20, 20, 0.08);
+}
+
+.funding-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.funding-card {
+  display: grid;
+  align-content: center;
+  min-height: 170px;
+  padding: 24px;
+  border: 1px solid rgba(23, 25, 31, 0.08);
+  border-radius: 22px;
+  background: #ffffff;
+  box-shadow: 0 16px 42px rgba(90, 20, 20, 0.08);
+  text-align: center;
+}
+
+.funding-card img {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  max-height: 104px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.affiliation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.affiliation-card {
+  display: grid;
+  align-content: center;
+  min-height: 190px;
+  padding: 24px;
+  border: 1px solid rgba(23, 25, 31, 0.08);
+  border-radius: 22px;
+  background: #ffffff;
+  box-shadow: 0 16px 42px rgba(90, 20, 20, 0.08);
+  text-align: center;
+}
+
+.affiliation-card img {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  max-height: 112px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+@media (max-width: 700px) {
+  main > section:has(.subpage-hero)::before,
+  main > section:has(.subpage-hero)::after {
+    opacity: 0.2;
+    width: 66px;
+    height: 66px;
+  }
+  main > section:has(.subpage-hero)::before {
+    left: 16px;
+    top: 18px;
+  }
+  main > section:has(.subpage-hero)::after {
+    right: 18px;
+    top: 22px;
+  }
+}
+
+/*# sourceMappingURL=subpage.css.map */

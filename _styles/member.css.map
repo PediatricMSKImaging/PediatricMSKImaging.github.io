@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["member.scss"],"names":[],"mappings":"AAAA;EACE;;;AAGF;EACE;IACE","sourcesContent":[".member-content {\n  overflow: auto;\n}\n\n@media (max-width: 600px) {\n  .member-content {\n    overflow: visible;\n  }\n}\n"],"file":"member.css"}

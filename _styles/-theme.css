@@ -1,0 +1,53 @@
+[data-dark=false] {
+  --primary: #d71920;
+  --secondary: #f6b51b;
+  --accent-coral: #ff6b57;
+  --accent-gold: #f6c445;
+  --accent-mint: #eaf5ff;
+  --text: #17191f;
+  --background: #ffffff;
+  --background-alt: #fff1f2;
+  --light-gray: #eee5d8;
+  --gray: #5f6673;
+  --dark-gray: #151922;
+  --overlay: #5a141414;
+  --outline: #eadfce;
+}
+
+[data-dark=true] {
+  --primary: #d71920;
+  --secondary: #f6b51b;
+  --accent-coral: #ff6b57;
+  --accent-gold: #f6c445;
+  --accent-mint: #eaf5ff;
+  --text: #17191f;
+  --background: #ffffff;
+  --background-alt: #fff1f2;
+  --light-gray: #eee5d8;
+  --gray: #5f6673;
+  --dark-gray: #151922;
+  --overlay: #5a141414;
+  --outline: #eadfce;
+}
+
+:root {
+  --title: "Barlow", sans-serif;
+  --heading: "Barlow", sans-serif;
+  --display: "Chewy", "Baloo 2", "Marker Felt", cursive;
+  --body: "Barlow", sans-serif;
+  --code: "Roboto Mono", monospace;
+  --large: 1.2rem;
+  --xl: 1.4rem;
+  --xxl: 1.6rem;
+  --thin: 200;
+  --regular: 400;
+  --semi-bold: 500;
+  --bold: 600;
+  --spacing: 2;
+  --compact: 1.5;
+  --rounded: 18px;
+  --shadow: 0 20px 60px 0 var(--overlay);
+  --transition: 0.2s ease;
+}
+
+/*# sourceMappingURL=-theme.css.map */

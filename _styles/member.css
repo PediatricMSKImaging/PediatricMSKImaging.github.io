@@ -1,0 +1,11 @@
+.member-content {
+  overflow: auto;
+}
+
+@media (max-width: 600px) {
+  .member-content {
+    overflow: visible;
+  }
+}
+
+/*# sourceMappingURL=member.css.map */
