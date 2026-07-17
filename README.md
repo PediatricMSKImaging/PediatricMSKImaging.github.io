@@ -1,4 +1,4 @@
-Visit **[pediatricmskimaging.github.io/PediatricMSKLabWebsite](https://pediatricmskimaging.github.io/PediatricMSKLabWebsite)** 🚀
+Visit **[pediatricmsklab.ca](http://pediatricmsklab.ca)** 🚀
 
 
   ![on-push](../../actions/workflows/on-push.yaml/badge.svg)
