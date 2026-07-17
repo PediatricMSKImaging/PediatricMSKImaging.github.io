@@ -9,6 +9,10 @@ links:
   linkedin: https://www.linkedin.com/in/joseph-floer-garrido/
 ---
 
-Joseph Floer Garrido completed an Honours Thesis with the Pediatric Musculoskeletal Imaging Lab from 2024 to 2025 while at the University of Calgary.
+Joseph, a kinesiology student from the University of Calgary, completed his honours thesis with the lab in 2025. His project focused on using magnetic resonance imaging to measure bone marrow adipose tissue in children to better understand its role in pediatric bone health. In the fall of 2025, Joseph began his medical school studies at the University of Alberta.
 
-Project: Quantification of bone marrow adipose tissue composition during childhood using magnetic resonance spectroscopy.
+Degree: BSc (Honours) in Exercise and Health Physiology.
+
+Duration in lab: May 2024 - April 2025.
+
+Project: Magnetic Resonance Imaging of Bone Marrow Adipose Tissue in Pediatric Populations.
