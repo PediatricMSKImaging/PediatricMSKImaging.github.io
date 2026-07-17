@@ -7,4 +7,6 @@ status: past
 affiliation: University of Calgary
 ---
 
-Grace Mutasingwa was an Undergraduate Student in the Pediatric Musculoskeletal Imaging Lab from January 2024 to April 2024 for a course-based project.
+Grace Mutasingwa completed a Bachelor’s Semester Project with the Pediatric Musculoskeletal Imaging Lab during Winter 2024 while at the University of Calgary.
+
+Project: Load history algorithm to estimate physiological loading in mouse tibia.

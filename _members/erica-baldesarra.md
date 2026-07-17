@@ -1,14 +1,14 @@
 ---
 name: Erica Baldesarra
-image: images/member-placeholder.svg
+image: images/erica-baldesarra-headshot.jpg
 role: undergrad
 description: Co-op Undergraduate Student
 status: past
-affiliation: University of Calgary
+affiliation: University of Waterloo
 links:
   linkedin: https://www.linkedin.com/in/erica-baldesarra-68966123a/
 ---
 
-Erica Baldesarra was a Co-op Undergraduate Student in the Pediatric Musculoskeletal Imaging Lab from May 2025 to December 2025.
+Erica Baldesarra completed a Summer 2025 co-op term with the Pediatric Musculoskeletal Imaging Lab at the University of Calgary while studying at the University of Waterloo.
 
-Education: University of Waterloo, 2021–2026.
+Project: Open-source image processing toolkit for microCT and HR-pQCT.

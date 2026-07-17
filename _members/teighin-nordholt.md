@@ -1,14 +1,16 @@
 ---
 name: Teighin Nordholt
-image: images/member-placeholder.svg
+image: images/teighin-nordholt-headshot.jpg
 role: undergrad
 description: Undergraduate Summer Student
 status: past
-affiliation: University of Calgary
+affiliation: Queen's University
 links:
   linkedin: https://www.linkedin.com/in/teighinnordholt/
 ---
 
-Teighin Nordholt was an Undergraduate Summer Student in the Pediatric Musculoskeletal Imaging Lab from May 2024 to August 2024.
+Teighin Nordholt completed a Summer 2024 studentship with the Pediatric Musculoskeletal Imaging Lab at the University of Calgary while studying at Queen’s University.
 
-Education: Queen’s University.
+Awards: NSERC URSA.
+
+Project: Quantification of bone marrow adipose tissue and bone using magnetic resonance imaging.

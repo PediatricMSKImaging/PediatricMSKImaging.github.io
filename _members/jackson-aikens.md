@@ -1,14 +1,16 @@
 ---
 name: Jackson Aikens
-image: images/member-placeholder.svg
+image: images/jackson-aikens-headshot.jpg
 role: undergrad
 description: Undergraduate Summer Student
 status: past
-affiliation: University of Calgary
+affiliation: Queen's University
 links:
   linkedin: https://www.linkedin.com/in/jackson-aikens-34136222a/
 ---
 
-Jackson Aikens was an Undergraduate Summer Student in the Pediatric Musculoskeletal Imaging Lab from May 2024 to August 2024.
+Jackson Aikens completed a Summer 2024 studentship with the Pediatric Musculoskeletal Imaging Lab at the University of Calgary while studying at Queen’s University.
 
-Education: Engineering Physics, Queen’s University, 2025.
+Awards: NSERC URSA.
+
+Project: Large-scale assessment of lacunar morphology from micro-computed tomography.

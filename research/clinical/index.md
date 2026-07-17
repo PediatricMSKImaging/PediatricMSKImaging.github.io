@@ -16,6 +16,18 @@ nav:
 
 {% include section.html %}
 
+## Clinical Imaging Research
+
+We develop and apply advanced imaging methods to study bone health in children and adolescents affected by chronic disease, musculoskeletal disorders, and injury. By combining longitudinal cohort studies with multimodal imaging, we investigate how bone microarchitecture changes throughout growth, treatment, and recovery.
+
+**Areas of interest**
+
+- Longitudinal pediatric cohort studies
+- Bone microarchitecture using HR-pQCT
+- Clinical CT, MRI, radiography, and ultrasound
+- Computational image analysis and AI
+- Quantitative imaging biomarkers
+
 ## Current Directions
 
 - Longitudinal HR-pQCT imaging of pediatric fracture healing

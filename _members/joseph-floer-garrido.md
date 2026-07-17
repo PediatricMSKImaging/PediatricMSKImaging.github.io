@@ -1,6 +1,6 @@
 ---
 name: Joseph Floer Garrido
-image: images/member-placeholder.svg
+image: images/joseph-floer-garrido-headshot.jpg
 role: undergrad
 description: Honours Thesis Student
 status: past
@@ -9,6 +9,6 @@ links:
   linkedin: https://www.linkedin.com/in/joseph-floer-garrido/
 ---
 
-Joseph Floer Garrido was an Honours Thesis Student in the Pediatric Musculoskeletal Imaging Lab from May 2024 to April 2025.
+Joseph Floer Garrido completed an Honours Thesis with the Pediatric Musculoskeletal Imaging Lab from 2024 to 2025 while at the University of Calgary.
 
-Education: University of Alberta, 2025–2029; University of Calgary, 2021–2025.
+Project: Quantification of bone marrow adipose tissue composition during childhood using magnetic resonance spectroscopy.

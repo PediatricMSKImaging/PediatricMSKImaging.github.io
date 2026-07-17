@@ -1,10 +1,14 @@
 ---
 name: Sarah Elmahdy
-image: images/member-placeholder.svg
+image: images/sarah-elmahdy-headshot.jpg
 role: undergrad
 description: Undergraduate Summer Student
 status: past
 affiliation: University of Calgary
 ---
 
-Sarah Elmahdy was an Undergraduate Summer Student in the Pediatric Musculoskeletal Imaging Lab from May 2025 to August 2025.
+Sarah Elmahdy completed a Summer 2025 studentship with the Pediatric Musculoskeletal Imaging Lab at the University of Calgary.
+
+Awards: McCaig Institute Summer Studentship.
+
+Project: Adaptive filtering optimization for capturing under-mineralized bone microarchitecture.

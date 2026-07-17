@@ -19,30 +19,6 @@ The Pediatric Musculoskeletal Imaging Lab develops advanced imaging and computat
 
 Our goal is to develop imaging tools and biological insights that improve the diagnosis, monitoring, and treatment of pediatric musculoskeletal disease.
 
-## Clinical Imaging Research
-
-We develop and apply advanced imaging methods to study bone health in children and adolescents affected by chronic disease, musculoskeletal disorders, and injury. By combining longitudinal cohort studies with multimodal imaging, we investigate how bone microarchitecture changes throughout growth, treatment, and recovery.
-
-**Areas of interest**
-
-- Longitudinal pediatric cohort studies
-- Bone microarchitecture using HR-pQCT
-- Clinical CT, MRI, radiography, and ultrasound
-- Computational image analysis and AI
-- Quantitative imaging biomarkers
-
-## Preclinical Bone Mechanobiology
-
-Our experimental research investigates how bones sense and respond to their mechanical environment during growth. Using high-resolution microCT, controlled loading experiments, and computational analysis, we study the biological mechanisms that regulate bone adaptation, growth, and repair.
-
-**Areas of interest**
-
-- Bone mechanobiology
-- Skeletal growth and adaptation
-- High-resolution microCT imaging
-- Image-based biomechanics
-- Experimental disease models
-
 ## Bridging the Clinic and the Laboratory
 
 One of the defining features of our lab is the integration of clinical and preclinical research. Clinical studies identify important challenges faced by children with musculoskeletal disease, while experimental models help uncover the biological mechanisms responsible for these observations. Together, these complementary approaches accelerate the translation of discoveries into improved patient care.

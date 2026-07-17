@@ -193,15 +193,16 @@
 .lab-hero__hexgrid {
   position: relative;
   z-index: 2;
-  width: min(100%, 980px);
+  width: min(116%, 1140px);
   aspect-ratio: 1.42;
-  margin-left: auto;
+  margin-left: -20%;
+  margin-right: auto;
 }
 
 .lab-hero__hex {
   position: absolute;
   margin: 0;
-  padding: 8px;
+  padding: 4px;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.98);
   clip-path: url("#lab-hero-rounded-hex");
@@ -211,7 +212,7 @@
 .lab-hero__hex::before {
   content: "";
   position: absolute;
-  inset: 8px;
+  inset: 4px;
   z-index: 1;
   pointer-events: none;
   clip-path: inherit;
@@ -232,6 +233,7 @@
   z-index: 4;
   width: 31%;
   aspect-ratio: 1;
+  background: rgba(0, 120, 180, 0.82);
 }
 
 .lab-hero__hex--child {
@@ -240,6 +242,7 @@
   z-index: 2;
   width: 46%;
   aspect-ratio: 1;
+  background: rgba(246, 181, 27, 0.9);
 }
 
 .lab-hero__hex--microct {
@@ -248,6 +251,7 @@
   z-index: 3;
   width: 34%;
   aspect-ratio: 1;
+  background: rgba(215, 25, 32, 0.88);
 }
 
 .lab-hero__hex--mri {
@@ -256,6 +260,7 @@
   z-index: 5;
   width: 28%;
   aspect-ratio: 1;
+  background: rgba(238, 242, 246, 0.96);
 }
 
 .lab-hero__hex--scanner {
@@ -271,21 +276,21 @@
 }
 
 .lab-hero__doodle--rocket {
-  left: 15%;
+  left: 0%;
   top: 32%;
   width: 58px;
   transform: rotate(42deg);
 }
 
 .lab-hero__doodle--star {
-  right: 0;
+  right: 15%;
   top: 21%;
   width: 72px;
   transform: rotate(10deg);
 }
 
 .lab-hero__doodle--sparkle {
-  right: 7%;
+  right: 22%;
   bottom: 21%;
   width: 42px;
   transform: rotate(-5deg);
@@ -300,7 +305,7 @@
 
 .lab-hero__shape--red {
   top: 4%;
-  left: 58%;
+  left: 43%;
   width: 76px;
   aspect-ratio: 1;
   background: rgba(215, 25, 32, 0.9);
@@ -308,14 +313,14 @@
 
 .lab-hero__shape--gold {
   top: 41%;
-  left: 17%;
+  left: 2%;
   width: 62px;
   aspect-ratio: 1;
   background: rgba(246, 181, 27, 0.92);
 }
 
 .lab-hero__shape--outline {
-  right: 6%;
+  right: 21%;
   bottom: 11%;
   width: 62px;
   aspect-ratio: 1;
@@ -412,7 +417,8 @@
   }
 
   .lab-hero__hexgrid {
-    width: min(100%, 760px);
+    width: min(108%, 820px);
+    margin-left: -12%;
   }
 
   .lab-highlights {

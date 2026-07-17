@@ -16,6 +16,18 @@ nav:
 
 {% include section.html %}
 
+## Preclinical Bone Mechanobiology
+
+Our experimental research investigates how bones sense and respond to their mechanical environment during growth. Using high-resolution microCT, controlled loading experiments, and computational analysis, we study the biological mechanisms that regulate bone adaptation, growth, and repair.
+
+**Areas of interest**
+
+- Bone mechanobiology
+- Skeletal growth and adaptation
+- High-resolution microCT imaging
+- Image-based biomechanics
+- Experimental disease models
+
 ## Current Directions
 
 - Mechanical regulation of bone growth

@@ -8,17 +8,17 @@ hero:
       accent: true
   lede: We investigate how musculoskeletal tissues grow and respond using advanced imaging and experimental models—so kids can thrive.
   circles:
-    - image: images/home-circle-lacunae.png
-      alt: MicroCT image of bone lacunae
+    - image: images/home-hex-hrpqct-scan.jpg
+      alt: HR-pQCT scanner used for pediatric musculoskeletal imaging
       style: network
     - image: images/home-circle-knee.png
       alt: Knee imaging used to study pediatric musculoskeletal health
       style: child
-    - image: images/home-circle-jia-xray.png
-      alt: Pediatric hand x-ray for juvenile idiopathic arthritis imaging
+    - image: images/home-circle-lacunae.png
+      alt: MicroCT image of bone lacunae
       style: microct
-    - image: images/home-circle-hrpqct.png
-      alt: HR-pQCT scanner used for musculoskeletal imaging
+    - image: images/home-hex-bone-render.jpg
+      alt: Three-dimensional fracture healing visualization with highlighted bone remodeling regions
       style: mri
     - image: images/home-circle-tibia.png
       alt: High-resolution tibia image from preclinical bone imaging

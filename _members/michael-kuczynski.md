@@ -9,6 +9,6 @@ links:
   linkedin: https://www.linkedin.com/in/mkuczyns/
 ---
 
-Michael Kuczynski was a Postdoctoral Research Fellow in the Pediatric Musculoskeletal Imaging Lab.
+Michael Kuczynski was a Postdoctoral Research Fellow in the Pediatric Musculoskeletal Imaging Lab from April 2024 to February 2026.
 
-Education: PhD in Biomedical Engineering, University of Calgary; BSc in Electrical Engineering, University of Calgary, 2018.
+Awards: NSERC Postdoctoral Fellowship and ACHRI Postdoctoral Fellowship.
