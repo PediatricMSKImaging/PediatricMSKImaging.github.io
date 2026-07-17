@@ -106,9 +106,9 @@
 .lab-hero__headline-accent:first-of-type::after {
   content: "";
   position: absolute;
-  left: 0.45em;
-  right: -0.55em;
-  bottom: -0.08em;
+  left: 0.02em;
+  bottom: -0.1em;
+  width: 3.35em;
   height: 9px;
   background: var(--secondary);
   border-radius: 999px;
