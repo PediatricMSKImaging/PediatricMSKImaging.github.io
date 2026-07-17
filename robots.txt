@@ -1,1 +1,1 @@
-Sitemap: https://pediatricmskimaging.github.io/PediatricMSKLabWebsite/sitemap.xml
+Sitemap: http://pediatricmsklab.ca/sitemap.xml
