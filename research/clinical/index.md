@@ -28,11 +28,9 @@ We develop and apply advanced imaging methods to study bone health in children a
 - Computational image analysis and AI
 - Quantitative imaging biomarkers
 
-## Current Directions
+## Current Projects
 
-- Longitudinal HR-pQCT imaging of pediatric fracture healing
-- Advanced imaging approaches for juvenile idiopathic arthritis
-- Bone strength, body composition, and growth in childhood obesity
+{% include list.html component="card" data="projects" filter="tags && tags.include?('clinical')" %}
 
 ## Methods
 

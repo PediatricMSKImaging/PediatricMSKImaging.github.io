@@ -227,7 +227,7 @@
   clip-path: inherit;
 }
 
-.lab-hero__hex--network {
+.lab-hero__hex--top-left {
   top: 8%;
   left: 28%;
   z-index: 4;
@@ -236,7 +236,7 @@
   background: rgba(0, 120, 180, 0.82);
 }
 
-.lab-hero__hex--child {
+.lab-hero__hex--top-right {
   top: 7%;
   right: 1%;
   z-index: 2;
@@ -245,7 +245,7 @@
   background: rgba(246, 181, 27, 0.9);
 }
 
-.lab-hero__hex--microct {
+.lab-hero__hex--bottom-left {
   left: 15%;
   bottom: 5%;
   z-index: 3;
@@ -254,16 +254,17 @@
   background: rgba(215, 25, 32, 0.88);
 }
 
+.lab-hero__hex--bottom-right,
 .lab-hero__hex--mri {
-  left: 45%;
-  bottom: 7%;
+  left: 41%;
+  bottom: 3%;
   z-index: 5;
   width: 28%;
   aspect-ratio: 1;
   background: rgba(238, 242, 246, 0.96);
 }
 
-.lab-hero__hex--scanner {
+.lab-hero__hex--hidden {
   display: none;
 }
 

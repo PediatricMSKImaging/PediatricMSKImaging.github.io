@@ -28,11 +28,9 @@ Our experimental research investigates how bones sense and respond to their mech
 - Image-based biomechanics
 - Experimental disease models
 
-## Current Directions
+## Current Projects
 
-- Mechanical regulation of bone growth
-- Experimental murine tibia loading models
-- MicroCT, histological, cellular, and mechanical tissue-level analyses
+{% include list.html component="card" data="projects" filter="tags && tags.include?('preclinical')" %}
 
 ## Methods
 
