@@ -9,17 +9,15 @@ nav:
 
 <h1>Participate</h1>
 
-<p>This page is for children, families, and patient partners who want to learn about participating in our research.</p>
+<p>This page is for families, youth, and patient partners who want to learn about participating in our research.</p>
 
 </div>
 
 {% include section.html %}
 
-If you are interested in a study or want to help shape future research, please contact the lab by email.
-
 ## Participate in a Study
 
-We are always happy to hear from families who are interested in learning more about studies that may be a fit for their child or teen.
+We are always happy to hear from families who are interested in learning more about getting involved in research that may be a fit for their child or teen. Below are studies that we are actively recruiting for from the community. Click the study to find out more and even sign up to participate!
 
 <div class="study-panel-grid">
   <a class="study-panel" href="https://research.ucalgary.ca/participate/body-composition-and-bone-growth-study-reb25-1511" target="_blank" rel="noopener noreferrer">
@@ -41,7 +39,7 @@ We are always happy to hear from families who are interested in learning more ab
 
 ## What to Expect
 
-Our lab is located in the Health Research Innovation Centre at the Foothills Medical Centre campus. These guides can help you plan your visit.
+Our lab is located in the Health Research Innovation Centre at the Foothills Medical Centre campus. A Google map to our location is provided on our Contact page, and the guides below can help you with more detailed directions to plan your visit. Note that most visits occur at our lab, but in some cases study vists will be at the Alberta Children's Hospital. Contact us if you are ever unsure on where to go. 
 
 <div class="visit-panel">
   <img src="{{ 'images/participate/lab-welcome-space.jpg' | relative_url }}" alt="Welcoming seating area in the Pediatric Musculoskeletal Imaging Lab">
@@ -58,4 +56,5 @@ Our lab is located in the Health Research Innovation Centre at the Foothills Med
 
 ## Become a Patient Partner
 
-Patient partners help shape our research by sharing lived experience, priorities, and feedback on how we communicate study goals and results. If you are interested in becoming a patient partner or learning more about future opportunities, please [contact us]({{ 'contact' | relative_url }}).
+Patient partners help shape our research by sharing lived experience, priorities, and feedback on how we communicate study goals and results. If you are interested in becoming a patient partner or learning more about future opportunities, please [contact us]({{ 'contact' | relative_url }}). We are always open to inquires about becoming a patient or community partner. For more information on patient engagement in research you can explore the <a href="https://cihr-irsc.gc.ca/e/45851.html" target="_blank" rel="noopener noreferrer">
+CIHR Patient Engagement resources</a>.
