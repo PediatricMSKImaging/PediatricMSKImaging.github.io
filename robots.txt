@@ -1,1 +1,1 @@
-Sitemap: http://pediatricmsklab.ca/sitemap.xml
+Sitemap: https://pediatricmsklab.ca/sitemap.xml
