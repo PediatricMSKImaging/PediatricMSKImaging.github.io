@@ -23,6 +23,8 @@ Our goal is to develop imaging tools and biological insights that improve the di
 
 One of the defining features of our lab is the integration of clinical and preclinical research. Clinical studies identify important challenges faced by children with musculoskeletal disease, while experimental models help uncover the biological mechanisms responsible for these observations. Together, these complementary approaches accelerate the translation of discoveries into improved patient care.
 
+{% include figure.html image="images/about-clinic-laboratory-bridge.jpg" width="900px" alt="Pediatric Musculoskeletal Imaging Lab team members in the research laboratory" %}
+
 ## Why Pediatric Bone Health
 
 Childhood and adolescence represent a unique opportunity to shape lifelong skeletal health. The majority of peak bone mass is established before early adulthood, making these years critical for preventing future fractures and osteoporosis.

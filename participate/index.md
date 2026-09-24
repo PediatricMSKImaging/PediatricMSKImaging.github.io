@@ -42,7 +42,7 @@ We are always happy to hear from families who are interested in learning more ab
 Our lab is located in the Health Research Innovation Centre at the Foothills Medical Centre campus. A Google map to our location is provided on our Contact page, and the guides below can help you with more detailed directions to plan your visit. Note that most visits occur at our lab, but in some cases study vists will be at the Alberta Children's Hospital. Contact us if you are ever unsure on where to go. 
 
 <div class="visit-panel">
-  <img src="{{ 'images/participate/lab-welcome-space.jpg' | relative_url }}" alt="Welcoming seating area in the Pediatric Musculoskeletal Imaging Lab">
+  <img class="visit-panel__lab-entry" src="{{ 'images/participate/lab-entry.jpg' | relative_url }}" alt="Entrance to the Pediatric Musculoskeletal Imaging Lab">
   <div>
     <h4>Planning Your Visit</h4>
     <p>Review parking and wayfinding details before your appointment, including different routes for weekday and weekend visits.</p>
@@ -56,5 +56,9 @@ Our lab is located in the Health Research Innovation Centre at the Foothills Med
 
 ## Become a Patient Partner
 
-Patient partners help shape our research by sharing lived experience, priorities, and feedback on how we communicate study goals and results. If you are interested in becoming a patient partner or learning more about future opportunities, please [contact us]({{ 'contact' | relative_url }}). We are always open to inquires about becoming a patient or community partner. For more information on patient engagement in research you can explore the <a href="https://cihr-irsc.gc.ca/e/45851.html" target="_blank" rel="noopener noreferrer">
-CIHR Patient Engagement resources</a>.
+<div class="visit-panel visit-panel--reverse">
+  <div>
+    <p>Patient partners help shape our research by sharing lived experience, priorities, and feedback on how we communicate study goals and results. If you are interested in becoming a patient partner or learning more about future opportunities, please <a href="{{ 'contact' | relative_url }}">contact us</a>. We are always open to inquiries about becoming a patient or community partner. For more information on patient engagement in research you can explore the <a href="https://cihr-irsc.gc.ca/e/45851.html" target="_blank" rel="noopener noreferrer">CIHR Patient Engagement resources</a>.</p>
+  </div>
+  <img src="{{ 'images/participate/patient-partner.jpg' | relative_url }}" alt="Pediatric Musculoskeletal Imaging Lab team members discussing bone models">
+</div>

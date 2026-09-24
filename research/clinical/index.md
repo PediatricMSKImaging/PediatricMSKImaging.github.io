@@ -20,6 +20,8 @@ nav:
 
 We develop and apply advanced imaging methods to study bone health in children and adolescents affected by chronic disease, musculoskeletal disorders, and injury. By combining longitudinal cohort studies with multimodal imaging, we investigate how bone microarchitecture changes throughout growth, treatment, and recovery.
 
+{% include figure.html image="images/clinical-ultrasound-review.jpg" width="900px" alt="Researcher reviewing ultrasound images with a child" %}
+
 **Areas of interest**
 
 - Longitudinal pediatric cohort studies

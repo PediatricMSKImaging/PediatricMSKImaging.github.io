@@ -17,6 +17,10 @@ Our lab is investigating how bone repairs itself during pubertal growth followin
 
 A major focus is understanding how factors such as obesity, growth, and muscle strength influence fracture healing and recovery. This project is funded through a SickKids ECR Operating Grant.
 
+<div class="story-photo">
+  <img src="{{ 'images/about-pediatric-bone-health.jpg' | relative_url }}" alt="Researcher sharing a model of a leg cast with a child">
+</div>
+
 ## Research Focus
 
 This project connects clinical imaging, growth, and functional measures to better understand the biological and mechanical factors that shape fracture healing during adolescence.
