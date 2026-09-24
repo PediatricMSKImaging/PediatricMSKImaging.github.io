@@ -17,14 +17,6 @@ Juvenile idiopathic arthritis (JIA) affects bone development and joint health in
 
 By comparing novel high-resolution imaging with conventional clinical imaging, we aim to improve the diagnosis, monitoring, and treatment of JIA while gaining new insights into how inflammatory arthritis affects the growing skeleton.
 
-## Methods
-
-- High-resolution imaging
-- Clinical imaging comparison
-- Bone microarchitecture analysis
-- Longitudinal assessment
-- Multimodal imaging workflows
-
 ## Research Focus
 
 This project aims to identify imaging biomarkers that can improve how joint health and bone development are monitored in children and adolescents with inflammatory arthritis.
