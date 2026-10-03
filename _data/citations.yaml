@@ -1,3 +1,78 @@
+- id: pubmed:41568132
+  title: 'Ultrasound to Assess the Temporomandibular Joint of Children With Juvenile Idiopathic Arthritis: A Systematic Review'
+  authors:
+    - J Chana
+    - K Baghaei
+    - NCF Fagundes
+    - A Hareendranatan
+    - JL Jaremko
+    - M Twilt
+    - FT Almeida
+  publisher: International Journal of Dentistry
+  date: '2026-01-19'
+  link: https://pubmed.ncbi.nlm.nih.gov/41568132/
+  buttons:
+    - type: pubmed
+      link: https://pubmed.ncbi.nlm.nih.gov/41568132/
+    - type: link
+      text: DOI
+      link: https://doi.org/10.1155/ijod/2825133
+
+- id: pubmed:38564998
+  title: Reliability assessment of the OMERACT whole-body magnetic resonance imaging scoring system for juvenile idiopathic arthritis
+  authors:
+    - J Panwar
+    - M Tolend
+    - E Kirkhus
+    - AB Meyers
+    - B Redd
+    - I Sudol-Szopinska
+    - N Varma
+    - EJ Inarejos Clemente
+    - RA Colbert
+    - J Akikusa
+    - S Appenzeller
+    - JA Carrino
+    - N Herregods
+    - K Highmore
+    - L Jans
+    - JL Jaremko
+    - T von Kalle
+    - MA van Rossum
+    - DG Rumsey
+    - H Srinivasalu
+    - J Stimec
+    - SM Tse
+    - M Twilt
+    - N Tzaribachev
+    - AS Doria
+  publisher: Seminars in Arthritis and Rheumatism
+  date: '2024-06-01'
+  link: https://pubmed.ncbi.nlm.nih.gov/38564998/
+  buttons:
+    - type: pubmed
+      link: https://pubmed.ncbi.nlm.nih.gov/38564998/
+    - type: link
+      text: DOI
+      link: https://doi.org/10.1016/j.semarthrit.2024.152437
+
+- id: pubmed:38589909
+  title: 'Provider assessment of the temporomandibular joint in Juvenile idiopathic arthritis: a retrospective analysis from the CARRA database'
+  authors:
+    - A Costello
+    - M Twilt
+    - MA Lerman
+    - CARRA Registry Investigators
+  publisher: Pediatric Rheumatology
+  date: '2024-04-08'
+  link: https://pubmed.ncbi.nlm.nih.gov/38589909/
+  buttons:
+    - type: pubmed
+      link: https://pubmed.ncbi.nlm.nih.gov/38589909/
+    - type: link
+      text: DOI
+      link: https://doi.org/10.1186/s12969-024-00968-2
+
 - id: pubmed:42124860
   title: Improved segmentation accuracy in high-resolution peripheral quantitative computed tomography scans of carpal bones using adaptive local thresholding.
   authors:

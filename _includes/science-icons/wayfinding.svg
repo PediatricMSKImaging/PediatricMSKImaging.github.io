@@ -1,0 +1,6 @@
+<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+  <path d="M42 12c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0ZM18 37c5 2 7 5 13 3s6-7 3-10" />
+  <circle cx="33" cy="12" r="3" />
+  <ellipse cx="11" cy="31" rx="4" ry="7" transform="rotate(-25 11 31)" />
+  <path d="m5 20-1-2m5 0v-3m5 4 1-2" />
+</svg>

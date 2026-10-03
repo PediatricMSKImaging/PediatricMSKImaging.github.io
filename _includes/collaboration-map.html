@@ -1,0 +1,72 @@
+<section class="collaboration-network" id="global-research-network" aria-labelledby="network-heading"
+  data-collaboration-network data-snapshot="{{ '/data/collaborations.json' | relative_url }}"
+  data-land="{{ '/data/world-land.geojson' | relative_url }}">
+  <h2 id="network-heading">Our Global Research Network</h2>
+  <p>Discover the institutions connected through Danielle Whittier and Marinka Twilt’s publications, across their full research careers—including work before our lab was established.</p>
+  <p class="collaboration-network__status" data-network-status role="status" aria-live="polite">Loading the publication-based collaboration network…</p>
+  <div data-network-content hidden>
+    <div class="collaboration-network__toolbar">
+      <div class="collaboration-network__filters" role="group" aria-label="Filter collaborations by principal investigator">
+        <button type="button" data-network-pi="all" aria-pressed="true">All</button>
+        <button type="button" data-network-pi="whittier" aria-pressed="false">Whittier</button>
+        <button type="button" data-network-pi="twilt" aria-pressed="false">Twilt</button>
+      </div>
+      <label class="collaboration-network__search">Find an institution
+        <input type="search" data-network-search placeholder="Institution, city, or country" autocomplete="off">
+      </label>
+    </div>
+    <div class="collaboration-network__scope"><span data-network-scope></span><span data-network-years></span></div>
+    <dl class="collaboration-network__totals">
+      <div><dt>Indexed publications</dt><dd data-total-publications></dd></div>
+      <div><dt>Mapped institutions</dt><dd data-total-institutions></dd></div>
+      <div><dt>Countries</dt><dd data-total-countries></dd></div>
+    </dl>
+    <div class="collaboration-network__map-panel">
+      <div class="collaboration-network__map-toolbar">
+      <ul class="collaboration-network__legend" aria-label="Map legend">
+        <li><span class="collaboration-network__key collaboration-network__key--whittier" aria-hidden="true"></span>Whittier</li>
+        <li><span class="collaboration-network__key collaboration-network__key--twilt" aria-hidden="true"></span>Twilt</li>
+        <li><span class="collaboration-network__key collaboration-network__key--both" aria-hidden="true"></span>Both</li>
+      </ul>
+      <div class="collaboration-network__map-controls" role="group" aria-label="Map zoom controls">
+        <button type="button" data-network-zoom-out aria-label="Zoom out" disabled>−</button>
+        <output data-network-zoom-level aria-label="Map zoom level" aria-live="polite">1×</output>
+        <button type="button" data-network-zoom-in aria-label="Zoom in">+</button>
+        <button type="button" data-network-reset disabled>Reset map</button>
+      </div>
+      </div>
+      <svg data-network-map viewBox="0 0 960 480" role="group" tabindex="0" aria-labelledby="network-map-title network-map-description">
+        <title id="network-map-title">Publication-based collaborations around the world</title>
+        <desc id="network-map-description">Red is Whittier, gold is Twilt, and split markers represent both networks. Use the zoom buttons and drag to pan. With the map focused, plus and minus zoom, arrow keys pan, and Home resets. Select a marker or use the searchable institution list below.</desc>
+        <defs><linearGradient id="network-both-fill"><stop offset="50%" stop-color="#d71920"/><stop offset="50%" stop-color="#f6b51b"/></linearGradient></defs>
+        <g data-network-land aria-hidden="true"></g>
+        <g data-network-markers></g>
+      </svg>
+      <p class="collaboration-network__map-note">Zoom in, then drag to explore crowded areas. Select a marker or search below. “Both” means each PI has published with an institution, not necessarily on the same paper.</p>
+    </div>
+    <details class="collaboration-network__disclosure" data-network-explorer>
+    <summary>Browse institutions and linked publications</summary>
+    <div class="collaboration-network__explorer">
+      <div class="collaboration-network__list-panel">
+        <h3>Collaborating Institutions</h3>
+        <ul class="collaboration-network__institutions" data-network-list aria-label="Collaborating institutions"></ul>
+      </div>
+      <div class="collaboration-network__details" id="network-institution-details" data-network-details></div>
+    </div>
+    </details>
+    <div class="collaboration-network__provenance">
+      <p data-network-unmapped></p>
+      <p>Publication-based connections, not a directory of current formal partnerships. Affiliations reflect co-authors’ institutions when the work was published; University of Calgary and Alberta Children’s Hospital affiliations are excluded from the external network.</p>
+      <p>Source: <a href="https://openalex.org/">OpenAlex</a> · Updated <span data-network-date></span> · <a href="https://www.naturalearthdata.com/about/terms-of-use/">Made with Natural Earth</a>.</p>
+      <details><summary>About the data</summary>
+        <p>The map covers the full histories indexed under verified PI profiles, including earlier institutions. Indexing, author disambiguation, and missing affiliations can affect coverage; unverified same-name profiles are not included. Publication totals are deduplicated across the two PIs and include indexed works without a mapped collaboration.</p>
+        <p>OpenAlex can limit a work’s metadata to its first 100 authorships. <span data-network-truncation></span> indexed works reach this limit and may have incomplete collaboration coverage. Co-located institutions share a marker; their individual publication records remain available in the institution list.</p>
+      </details>
+    </div>
+  </div>
+  <div data-network-fallback hidden>
+    <a href="https://openalex.org/A5009049545">Danielle Whittier’s publication profile</a> ·
+    <a href="https://openalex.org/A5049436690">Marinka Twilt’s publication profile</a>
+  </div>
+  <noscript><p>The interactive map requires JavaScript. Explore <a href="https://openalex.org/A5009049545">Danielle Whittier’s</a> and <a href="https://openalex.org/A5049436690">Marinka Twilt’s</a> publication profiles instead.</p></noscript>
+</section>

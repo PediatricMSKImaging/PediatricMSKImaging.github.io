@@ -1,0 +1,4 @@
+<span class="playful-icon playful-icon--{{ include.style | default: 'red' }}" aria-hidden="true">
+  {%- assign science_icon_path = 'science-icons/' | append: include.name | append: '.svg' -%}
+  {%- include {{ science_icon_path }} -%}
+</span>

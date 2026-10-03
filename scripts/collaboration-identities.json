@@ -1,0 +1,29 @@
+{
+  "pis": [
+    {
+      "id": "whittier",
+      "name": "Danielle Whittier",
+      "author_ids": ["A5009049545"],
+      "orcid": "0000-0003-3602-551X"
+    },
+    {
+      "id": "twilt",
+      "name": "Marinka Twilt",
+      "author_ids": ["A5049436690", "A5123178017"],
+      "orcid": "0000-0003-1954-2822"
+    }
+  ],
+  "home_institution_ids": ["I168635309", "I2802127220", "I4389425471"],
+  "unresolved_candidates": [
+    {"id": "A5152471916", "name": "Danielle Whittier", "reason": "Name-only record; no ORCID. Its 2026 artificial-turf sensor article requires identity confirmation before inclusion."},
+    {"id": "A5137355467", "name": "Marinka Twilt", "reason": "Name-only record; no ORCID or institution. Book-chapter and contributor records require independent identity verification."},
+    {"id": "A5034800731", "name": "Twilt Marinka", "reason": "Name-only translated records, without DOI. Likely duplicates of original JIA publications; not included without source resolution."}
+  ],
+  "verified_at": "2026-10-02",
+  "evidence": [
+    "https://orcid.org/0000-0003-3602-551X",
+    "https://profiles.ucalgary.ca/danielle-whittier",
+    "https://profiles.ucalgary.ca/marinka-twilt",
+    "https://orcid.org/0000-0003-1954-2822"
+  ]
+}

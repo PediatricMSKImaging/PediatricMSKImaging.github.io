@@ -1,0 +1,14 @@
+{% if include.photo or include.example %}
+<div class="equipment-panel__media{% unless include.photo and include.example %} equipment-panel__media--single{% endunless %}" role="group" aria-label="{{ include.name | escape }} images">
+  {% if include.photo %}
+  <div class="equipment-media equipment-media--photo{% if include.photo_crop %} equipment-media--crop{% endif %}{% if include.photo_crop == 'top' %} equipment-media--crop-top{% endif %}">
+      <img src="{{ include.photo | relative_url }}" alt="{{ include.photo_alt | default: include.name | escape }}" loading="lazy" />
+  </div>
+  {% endif %}
+  {% if include.example %}
+  <div class="equipment-media equipment-media--example">
+      <img src="{{ include.example | relative_url }}" alt="{{ include.example_alt | default: include.name | escape }}" loading="lazy" />
+  </div>
+  {% endif %}
+</div>
+{% endif %}

@@ -4,7 +4,7 @@
   pillar: Preclinical research
   group: featured
   image: images/project-mechanoregulation.svg
-  description: This NSERC-funded project investigates how mechanical forces influence bone growth, from cellular-level changes to whole-bone development.
+  description: How do mechanical forces guide bone growth? We study the response from cellular changes to whole-bone development.
   methods:
     - Murine tibia loading
     - microCT imaging
@@ -23,7 +23,7 @@
   pillar: Clinical research
   group: featured
   image: images/project-fracture-healing.svg
-  description: This SickKids ECR Operating Grant-funded project investigates how bone repairs itself during pubertal growth following fracture and why healing differs between individuals.
+  description: How does bone repair itself during growth? We use high-resolution imaging to follow fracture healing and understand differences in recovery.
   methods:
     - HR-pQCT imaging
     - Longitudinal cohort follow-up

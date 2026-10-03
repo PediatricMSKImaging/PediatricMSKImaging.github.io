@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-dark="false">
   {% include head.html %}
-  <body>
+  <body id="top"{% if page.nav %} class="primary-page"{% endif %}>
     {% include header.html %}
     <main>
       {% include content.html content=content %}

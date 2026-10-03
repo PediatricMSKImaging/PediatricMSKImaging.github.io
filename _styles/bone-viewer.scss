@@ -1,0 +1,177 @@
+---
+---
+
+.lab-hero.lab-hero--model {
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(24px, 5vw, 70px);
+  background: #faf9f6;
+  min-height: 650px;
+  padding-bottom: 100px;
+}
+
+.lab-hero--model::before,
+.lab-hero--model::after {
+  display: none;
+}
+
+.lab-hero--model .lab-hero__headline {
+  font-family: var(--display);
+  font-size: clamp(2.6rem, 4.2vw, 4.2rem);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  transform: none;
+}
+
+.lab-hero--model .lab-hero__headline span:nth-child(n) {
+  margin-left: 0;
+  transform: none;
+}
+
+.lab-hero--model .lab-hero__headline-playful {
+  font-family: "Fredoka", var(--display);
+  font-size: 1.15em;
+  font-weight: 600;
+  line-height: 1.08;
+  margin-bottom: 0.08em;
+  letter-spacing: 0;
+}
+
+.lab-hero--model .lab-hero__headline-accent::after {
+  display: none;
+}
+
+.bone-explorer {
+  width: 100%;
+  align-self: center;
+  text-align: center;
+}
+
+.bone-explorer__visual {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 34px;
+  align-items: center;
+  gap: 8px;
+}
+
+.bone-explorer model-viewer {
+  display: block;
+  min-width: 0;
+  width: 100%;
+  height: clamp(360px, 40vw, 520px);
+  --progress-bar-color: var(--primary);
+  touch-action: none;
+  cursor: grab;
+}
+
+.bone-explorer model-viewer:active {
+  cursor: grabbing;
+}
+
+.bone-explorer__controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+}
+
+.bone-explorer__controls button {
+  padding: 9px 14px;
+  border: 1px solid #d8d8d5;
+  border-radius: 6px;
+  background: transparent;
+  font: inherit;
+  font-size: 0.9rem;
+  color: #4b5158;
+  cursor: pointer;
+}
+
+.bone-explorer__controls button[aria-pressed="true"] {
+  background: #ffffff;
+  border-color: #9c9e9f;
+  color: #151922;
+}
+
+.bone-explorer__controls button:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+}
+
+.bone-explorer__legend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.8rem;
+  color: #5f6673;
+}
+
+.bone-explorer__legend[hidden] {
+  display: none;
+}
+
+.bone-explorer__gradient {
+  width: 7px;
+  height: 150px;
+  border-radius: 4px;
+  background: linear-gradient(0deg, #000080, #0000ff, #00ffff, #7dff7a, #ffff00, #ff0000, #800000);
+}
+
+.bone-explorer__hint,
+.bone-explorer__status {
+  margin: 12px 0 0;
+  font-size: 0.85rem;
+  color: #5f6673;
+  text-align: center;
+}
+
+.bone-explorer__hint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.bone-explorer__hint-icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  color: var(--primary);
+}
+
+.bone-explorer__hint-icon svg {
+  width: 36px;
+  height: 36px;
+}
+
+.bone-explorer__hint strong {
+  display: block;
+  margin-bottom: 3px;
+  color: var(--primary);
+  font-family: var(--display);
+  font-size: 1.15rem;
+  font-weight: var(--bold);
+  line-height: 1.2;
+}
+
+.bone-explorer__loading {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+  color: #5f6673;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+@media (max-width: 860px) {
+  .lab-hero.lab-hero--model {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding-bottom: 40px;
+  }
+
+  .bone-explorer model-viewer {
+    height: 370px;
+  }
+}

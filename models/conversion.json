@@ -1,0 +1,14 @@
+{
+  "percentile": 99.0,
+  "color_map": "jet",
+  "scale_min": 0,
+  "scale_max": 3.5000937925744286e-09,
+  "percentile_population": "all original unsmoothed bone voxels",
+  "color_smoothing": "bone-mask-normalized Gaussian",
+  "smoothing_sigma_voxels": 1.5,
+  "geometry_smoothing": false,
+  "original_triangles": 9038808,
+  "triangles": 750000,
+  "vertices": 349593,
+  "vertex_values_above_cap": 277
+}

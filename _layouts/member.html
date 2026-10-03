@@ -6,6 +6,13 @@ layout: default
 
 {% include portrait.html lookup=page.slug %}
 
+{% if page.status == "past" and page.time_in_lab %}
+<dl class="member-tenure">
+  <dt>Time in lab</dt>
+  <dd>{{ page.time_in_lab | escape }}</dd>
+</dl>
+{% endif %}
+
 <div>
   {% for link in page.links %}
     {% assign key = link[0] %}
@@ -19,5 +26,35 @@ layout: default
 {% include float.html content=floatcontent %}
 
 <div class="member-content">
+  <h1>{{ page.name | escape }}</h1>
+  {% if page.status == "past" %}
+    <p class="member-status">Past member · {{ page.description | default: site.data.types[page.role].description | escape }}</p>
+  {% endif %}
   {{ content }}
+
+  {% if page.status == "past" %}
+    {% if page.awards.size > 0 %}
+      <section class="member-details" aria-labelledby="member-awards">
+        <h2 id="member-awards">Awards &amp; Fellowships</h2>
+        <ul>
+          {% for award in page.awards %}
+            <li>{{ award | escape }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+    {% if page.research_outputs.size > 0 %}
+      <section class="member-details" aria-labelledby="member-research-outputs">
+        <h2 id="member-research-outputs">Thesis / Publications</h2>
+        <ul>
+          {% for output in page.research_outputs %}
+            <li><a href="{{ output.url | escape }}">{{ output.title | escape }}</a></li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+  {% endif %}
 </div>
+
+<p class="page-return-link"><a href="{{ '/team/' | relative_url }}">Back to the Team</a></p>

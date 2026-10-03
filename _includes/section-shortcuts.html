@@ -1,0 +1,8 @@
+{% assign shortcuts = include.links | default: page.shortcuts %}
+{% if shortcuts.size > 0 %}
+<nav class="section-shortcuts{% if include.nested %} section-shortcuts--nested{% endif %}" aria-label="{{ include.label | default: 'On this page' | escape }}">
+  {% for shortcut in shortcuts %}
+    <a href="#{{ shortcut.anchor | escape }}">{{ shortcut.label | escape }}</a>
+  {% endfor %}
+</nav>
+{% endif %}

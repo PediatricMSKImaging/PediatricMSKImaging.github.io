@@ -5,6 +5,12 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 vendor
+!assets/vendor/
+assets/vendor/*
+!assets/vendor/meshopt/
+assets/vendor/meshopt/*
+!assets/vendor/meshopt/meshopt_decoder.js
+!assets/vendor/meshopt/LICENSE.md
 debug.log
 __pycache__
 .DS_Store

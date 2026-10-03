@@ -1,0 +1,47 @@
+<script>
+  self.ModelViewerElement = self.ModelViewerElement || {};
+  self.ModelViewerElement.meshoptDecoderLocation = "{{ 'assets/vendor/meshopt/meshopt_decoder.js' | relative_url }}";
+</script>
+<div class="bone-explorer">
+  <div class="bone-explorer__visual">
+    <model-viewer
+      id="home-bone-model"
+      src="{{ 'models/bone-sed.glb' | relative_url }}?v=p99-lossless1"
+      data-sed-src="{{ 'models/bone-sed.glb' | relative_url }}?v=p99-lossless1"
+      data-structure-src="{{ 'models/bone-structure.glb' | relative_url }}?v=contrast-lossless1"
+      poster="{{ 'images/bone-sed-poster.webp' | relative_url }}"
+      alt="Interactive bone model showing strain energy density across the bone structure"
+      camera-controls
+      camera-orbit="0deg 90deg 120%"
+      orientation="180deg 52deg 25deg"
+      disable-pan
+      min-camera-orbit="auto auto 70%"
+      max-camera-orbit="auto auto 180%"
+      touch-action="none"
+      interaction-prompt="none"
+      shadow-intensity="0.25"
+      exposure="1"
+      loading="eager"
+      aria-describedby="bone-interaction-hint"
+    >
+      <span slot="progress-bar" class="bone-explorer__loading">Loading bone model…</span>
+    </model-viewer>
+    <div class="bone-explorer__legend" aria-label="Smoothed strain energy density colour scale, from low to high; capped at the 99th percentile">
+      <span>High</span><span class="bone-explorer__gradient" aria-hidden="true"></span><span>Low</span>
+    </div>
+  </div>
+  <div class="bone-explorer__controls" role="group" aria-label="Bone model display">
+    <button type="button" data-bone-mode="structure" aria-pressed="false">Structure</button>
+    <button type="button" data-bone-mode="sed" aria-pressed="true">Strain energy density</button>
+  </div>
+  <p id="bone-interaction-hint" class="bone-explorer__hint">
+    <span class="bone-explorer__hint-icon" aria-hidden="true">{% include science-icons/rotate-arrow.svg %}</span>
+    <span>
+      <strong>Give the bone a spin</strong>
+      <span>Drag to rotate · Scroll or pinch to zoom</span>
+    </span>
+  </p>
+  <p class="bone-explorer__status" role="status" aria-live="polite"></p>
+  <p class="bone-explorer__hint">Explore bone structure and its predicted response to loading. Warmer colours show higher strain energy density.</p>
+</div>
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.1.0/model-viewer.min.js"></script>

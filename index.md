@@ -1,13 +1,14 @@
 ---
+description: Understanding how bones grow, adapt, and stay healthy using advanced imaging at the University of Calgary's Pediatric MSK Imaging Lab.
 ---
 
 <!-- <size>full</size> -->
 
-<div class="lab-hero">
+<div class="lab-hero lab-hero--model">
   <div class="lab-hero__copy">
     <h1 class="lab-hero__headline">
       {% for line in site.data.home.hero.headline %}
-        <span {% if line.accent %}class="lab-hero__headline-accent"{% endif %}>{{ line.text }}</span>
+        <span class="{% if line.accent %}lab-hero__headline-accent{% endif %}{% if line.playful %} lab-hero__headline-playful{% endif %}">{{ line.text }}</span>
       {% endfor %}
     </h1>
     <p>{{ site.data.home.hero.lede }}</p>
@@ -16,40 +17,21 @@
         include button.html
         link=site.data.home.hero.primary_button.link
         text=site.data.home.hero.primary_button.text
-        icon="fa-solid fa-arrow-right"
+        icon="science-icons/bone-search.svg"
+        tooltip="Explore our research"
         flip=true
       %}
       {%
         include button.html
         link=site.data.home.hero.secondary_button.link
         text=site.data.home.hero.secondary_button.text
-        icon="fa-solid fa-people-group"
+        icon="science-icons/family.svg"
         style="secondary"
       %}
     </div>
+    <p class="lab-hero__trainee-link">Interested in research training? <a href="{{ '/join/' | relative_url }}" aria-label="JOIN OUR LAB">Join our lab</a></p>
   </div>
-  <div class="lab-hero__visual">
-    <svg class="lab-hero__clip-defs" aria-hidden="true" focusable="false">
-      <defs>
-        <clipPath id="lab-hero-rounded-hex" clipPathUnits="objectBoundingBox">
-          <path d="M0.5,0.02 Q0.53,0.02 0.56,0.04 L0.91,0.24 Q0.94,0.26 0.94,0.3 V0.7 Q0.94,0.74 0.91,0.76 L0.56,0.96 Q0.53,0.98 0.5,0.98 Q0.47,0.98 0.44,0.96 L0.09,0.76 Q0.06,0.74 0.06,0.7 V0.3 Q0.06,0.26 0.09,0.24 L0.44,0.04 Q0.47,0.02 0.5,0.02 Z" />
-        </clipPath>
-      </defs>
-    </svg>
-    <img class="lab-hero__doodle lab-hero__doodle--rocket" src="{{ 'images/doodle-rocket.svg' | relative_url }}" alt="">
-    <img class="lab-hero__doodle lab-hero__doodle--star" src="{{ 'images/doodle-star.svg' | relative_url }}" alt="">
-    <img class="lab-hero__doodle lab-hero__doodle--sparkle" src="{{ 'images/doodle-sparkle.svg' | relative_url }}" alt="">
-    <span class="lab-hero__shape lab-hero__shape--red" aria-hidden="true"></span>
-    <span class="lab-hero__shape lab-hero__shape--gold" aria-hidden="true"></span>
-    <span class="lab-hero__shape lab-hero__shape--outline" aria-hidden="true"></span>
-    <div class="lab-hero__hexgrid" aria-label="Homepage research imagery">
-      {% for circle in site.data.home.hero.circles limit:4 %}
-        <figure class="lab-hero__hex lab-hero__hex--{{ circle.style }}">
-          <img src="{{ circle.image | relative_url }}" alt="{{ circle.alt }}">
-        </figure>
-      {% endfor %}
-    </div>
-  </div>
+  {% include bone-viewer.html %}
 </div>
 
 <div class="lab-highlights" aria-label="Homepage highlights">

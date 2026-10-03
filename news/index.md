@@ -1,5 +1,6 @@
 ---
 title: News
+description: Read lab news, trainee achievements, conference highlights, and community updates from the Pediatric MSK Imaging Lab.
 nav:
   order: 7
   tooltip: Lab updates and announcements
@@ -9,7 +10,7 @@ nav:
 
 <h1>News</h1>
 
-<p>News, updates, trainee opportunities, and community announcements appear below.</p>
+<p>Lab news, trainee achievements, conference highlights, and community updates.</p>
 
 </div>
 

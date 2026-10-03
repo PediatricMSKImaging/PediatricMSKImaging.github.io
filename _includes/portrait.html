@@ -8,6 +8,10 @@
 {% endif %}
 
 {% assign type = site.data.types[member.role] %}
+{% assign portrait_image = member.image %}
+{% if portrait_image contains 'member-placeholder.svg' %}
+  {% assign portrait_image = portrait_image | append: '?v=20261002' %}
+{% endif %}
 
 <div class="portrait-wrapper">
   <a
@@ -23,9 +27,9 @@
     {% endif %}
 
     <img
-      src="{{ member.image | relative_url | uri_escape }}"
+      src="{{ portrait_image | relative_url | uri_escape }}"
       class="portrait-image"
-      alt="member portrait"
+      alt="{{ member.name | default: 'Lab member' | regex_strip | escape }} portrait"
       loading="lazy"
       {% include fallback.html %}
     >

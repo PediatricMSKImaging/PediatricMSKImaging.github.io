@@ -17,6 +17,8 @@ Children with obesity are at greater risk of fractures despite having higher bon
 
 Our goal is to understand how obesity alters the growing skeleton in order to improve fracture risk assessment and develop strategies to promote lifelong bone health. We study how changes in bone structure, body composition, metabolism, and mechanical loading may contribute to altered bone adaptation in children and adolescents with obesity.
 
-## Research Focus
+## Project Details
 
-This project bridges clinical imaging and computational biomechanics to understand why higher bone mass does not always translate into stronger bones during growth.
+[Explore trainee opportunities]({{ 'join' | relative_url }}) or [contact us about this project]({{ 'contact' | relative_url }}).
+
+[Back to Research]({{ 'research' | relative_url }})

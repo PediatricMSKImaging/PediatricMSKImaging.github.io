@@ -9,6 +9,12 @@ section {
   transition: background var(--transition), color var(--transition);
 }
 
+@media (max-width: 600px) {
+  section {
+    padding: 32px 22px;
+  }
+}
+
 section[data-size="wide"] {
   padding: $padding;
 }

@@ -15,12 +15,6 @@
       link.href = "#" + heading.id;
       link.setAttribute("aria-label", "link to this section");
       heading.append(link);
-
-      // if first heading in the section, move id to parent section
-      if (heading.matches("section > :first-child")) {
-        heading.parentElement.id = heading.id;
-        heading.removeAttribute("id");
-      }
     }
   };
 
@@ -30,10 +24,12 @@
     const target = document.getElementById(id);
 
     if (!target) return;
-    const offset = document.querySelector("header").clientHeight || 0;
+    const headerHeight = document.querySelector("header")?.getBoundingClientRect().height || 0;
+    const scrollMargin = parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
+    const offset = Math.max(scrollMargin, headerHeight + 24);
     window.scrollTo({
       top: target.getBoundingClientRect().top + window.scrollY - offset,
-      behavior: "smooth",
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth",
     });
   };
 

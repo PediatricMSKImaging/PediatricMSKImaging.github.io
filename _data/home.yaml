@@ -1,12 +1,13 @@
 hero:
   headline:
     - text: Pediatric
-      accent: false
+      accent: true
+      playful: true
     - text: Musculoskeletal
       accent: false
     - text: Imaging Lab
-      accent: true
-  lede: We investigate how musculoskeletal tissues grow and respond using advanced imaging and experimental models—so kids can thrive.
+      accent: false
+  lede: Understanding how bones grow, adapt, and stay healthy using advanced imaging
   circles:
     - image: images/home-hex-hrpqct-scan.jpg
       alt: HR-pQCT scanner used for pediatric musculoskeletal imaging
@@ -27,22 +28,22 @@ hero:
     text: OUR RESEARCH
     link: research
   secondary_button:
-    text: JOIN OUR LAB
-    link: join
+    text: PARTICIPATE
+    link: participate
 highlights:
   - title: Clinical Cohorts
     text: Following children and adolescents over time.
-    icon: fa-solid fa-children
-    link: research/clinical
+    icon: science-icons/family.svg
+    link: research/#clinical-projects
   - title: Multimodal Imaging
     text: Across scales, modalities, and models.
-    icon: fa-solid fa-layer-group
-    link: research/imaging-infrastructure
+    icon: science-icons/bone-scanner.svg
+    link: research/#imaging-resources
   - title: Preclinical Research
     text: Mechanobiology in action during growth.
-    icon: fa-solid fa-bone
-    link: research/preclinical
-  - title: Stronger Impact
-    text: Better bone health for life.
-    icon: fa-solid fa-hand-holding-heart
+    icon: science-icons/microscope.svg
+    link: research/#preclinical-projects
+  - title: Publications
+    text: Discover our research findings.
+    icon: science-icons/open-book.svg
     link: publications

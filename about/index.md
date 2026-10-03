@@ -1,31 +1,43 @@
 ---
 title: About
+description: Meet the Pediatric MSK Imaging Lab and discover how clinical research, bone biology, and computational science connect to improve children's bone health.
 nav:
   order: 1
   tooltip: About the lab
+shortcuts:
+  - label: Our Approach
+    anchor: our-research-approach
+  - label: Collaborations
+    anchor: global-research-network
+  - label: Funding and Affiliations
+    anchor: funding
 ---
 
-<div class="subpage-hero subpage-hero--about">
+<div class="subpage-hero subpage-hero--about about-intro">
 
+<div class="about-intro__copy">
 <h1>About the Lab</h1>
 
-<p>Understanding how bones grow, adapt, and stay healthy.</p>
+<p class="about-intro__lead">We investigate how musculoskeletal tissues grow and respond using advanced imaging and experimental models—so kids can thrive.</p>
+
+<p class="about-intro__summary">Our team brings together clinical research, bone biology, and computational science to improve how pediatric musculoskeletal disease is diagnosed, monitored, and treated.</p>
+</div>
+
+<figure class="about-intro__photo">
+  <img src="{{ '/images/about-clinic-laboratory-bridge.jpg' | relative_url }}" width="1800" height="1200" alt="Pediatric Musculoskeletal Imaging Lab team members in the research laboratory" loading="eager" decoding="async" {% include fallback.html %}>
+</figure>
 
 </div>
 
 {% include section.html %}
 
-The Pediatric Musculoskeletal Imaging Lab develops advanced imaging and computational methods to better understand the growing skeleton. Our research spans from children participating in clinical studies to experimental models of bone growth, allowing discoveries in the laboratory to inform clinical care and clinical questions to inspire new scientific investigations.
+{% include section-shortcuts.html %}
 
-Our goal is to develop imaging tools and biological insights that improve the diagnosis, monitoring, and treatment of pediatric musculoskeletal disease.
+<h2 id="bridging-the-clinic-and-the-laboratory"><span class="playful-heading">{% include science-icon.html name="bone-search" %}Bridging the Clinic and the Laboratory</span></h2>
 
-## Bridging the Clinic and the Laboratory
+Our research spans children participating in clinical studies and experimental models of bone growth. Clinical studies identify challenges faced by children with musculoskeletal disease, while laboratory studies uncover the biological mechanisms behind these observations. Discoveries in the laboratory inform clinical care, and clinical questions inspire new scientific investigations—accelerating the translation of research into improved pediatric care.
 
-One of the defining features of our lab is the integration of clinical and preclinical research. Clinical studies identify important challenges faced by children with musculoskeletal disease, while experimental models help uncover the biological mechanisms responsible for these observations. Together, these complementary approaches accelerate the translation of discoveries into improved patient care.
-
-{% include figure.html image="images/about-clinic-laboratory-bridge.jpg" width="900px" alt="Pediatric Musculoskeletal Imaging Lab team members in the research laboratory" %}
-
-## Why Pediatric Bone Health
+<h2 id="why-pediatric-bone-health"><span class="playful-heading">{% include science-icon.html name="bone-growth" style="gold" %}Why Pediatric Bone Health</span></h2>
 
 Childhood and adolescence represent a unique opportunity to shape lifelong skeletal health. The majority of peak bone mass is established before early adulthood, making these years critical for preventing future fractures and osteoporosis.
 
@@ -34,27 +46,34 @@ By studying how bone grows, adapts, and responds to disease, injury, and treatme
 ## Our Research Approach
 
 <div class="link-grid">
-  <a>
+  <article>
     <strong>Advanced Imaging</strong>
     <span>Developing quantitative imaging methods across multiple modalities.</span>
-  </a>
-  <a>
+  </article>
+  <article>
     <strong>Bone Biology</strong>
     <span>Understanding how growing bone adapts to mechanical and biological signals.</span>
-  </a>
-  <a>
+  </article>
+  <article>
     <strong>Computational Science</strong>
     <span>Using image analysis, biomechanics, and artificial intelligence to extract meaningful biomarkers.</span>
-  </a>
-  <a>
+  </article>
+  <article>
     <strong>Translation</strong>
     <span>Transforming research discoveries into improved pediatric care.</span>
-  </a>
+  </article>
 </div>
+
+<div class="page-actions">
+  {% include button.html text="Explore our research" link="/research/" %}
+  {% include button.html text="Meet our team" link="/team/" %}
+</div>
+
+{% include collaboration-map.html %}
 
 ## Funding
 
-Our research is supported through competitive funding programs and collaborative partnerships across pediatric health, musculoskeletal science, and biomedical imaging. Funding logos can be added here as the lab’s active funding portfolio grows.
+Our research is supported through competitive funding programs and collaborative partnerships across pediatric health, musculoskeletal science, and biomedical imaging.
 
 <div class="funding-grid funding-grid--logos">
   <a class="funding-card funding-card--logo" href="https://nserc-crsng.canada.ca/en/awards-database/809915" target="_blank" rel="noopener">

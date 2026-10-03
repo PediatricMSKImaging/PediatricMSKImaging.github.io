@@ -1,0 +1,14 @@
+{% assign project_image = include.image %}
+{% if project_image contains 'project-' and project_image contains '.svg' %}
+  {% assign project_image = project_image | append: '?v=20261002' %}
+{% endif %}
+
+<article class="equipment-panel research-project-card">
+  <a class="research-project-image" href="{{ include.link | relative_url | uri_escape }}" tabindex="-1" aria-hidden="true">
+    <img src="{{ project_image | relative_url | uri_escape }}" alt="" loading="lazy" {% include fallback.html %}>
+  </a>
+  <div class="research-project-text">
+    <h3><a href="{{ include.link | relative_url | uri_escape }}">{{ include.title }}</a></h3>
+    <p>{{ include.description | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+  </div>
+</article>

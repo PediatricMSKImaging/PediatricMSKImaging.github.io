@@ -1,0 +1,92 @@
+---
+---
+
+.playful-icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: #e8f2ef;
+  color: #326f68;
+  pointer-events: none;
+}
+
+.playful-icon svg {
+  display: block;
+  width: 29px;
+  height: 29px;
+}
+
+.playful-icon--gold {
+  background: #fcf2d8;
+  color: #8b651d;
+}
+
+.playful-icon--red {
+  background: #f9e9e6;
+  color: var(--primary);
+}
+
+.playful-heading {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+}
+
+.lab-hero__actions span.icon > svg {
+  top: 0;
+  width: 26px;
+  height: 26px;
+}
+
+.lab-highlights .lab-highlight__icon {
+  border-radius: 12px;
+  background: #f9e9e6;
+  color: var(--primary);
+}
+
+.lab-highlights .lab-highlight:nth-child(even) .lab-highlight__icon {
+  border-radius: 50%;
+  background: #fcf2d8;
+  color: #8b651d;
+}
+
+.lab-highlights .lab-highlight__icon span.icon > svg {
+  top: 0;
+  width: 32px;
+  height: 32px;
+  color: inherit;
+}
+
+.visit-panel.visit-panel--wayfinding {
+  background: #eef5f2;
+  border-color: #dce8e2;
+  box-shadow: none;
+}
+
+.visit-panel.visit-panel--partner {
+  background: #fbf4e5;
+  border-color: #ebe2cf;
+  box-shadow: none;
+}
+
+@media (max-width: 600px) {
+  .playful-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .playful-icon svg {
+    width: 26px;
+    height: 26px;
+  }
+
+  .lab-highlights .lab-highlight__icon span.icon > svg {
+    width: 26px;
+    height: 26px;
+  }
+}

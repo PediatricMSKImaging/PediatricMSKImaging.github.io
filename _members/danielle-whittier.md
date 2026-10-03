@@ -12,7 +12,7 @@ links:
   pubmed: https://pubmed.ncbi.nlm.nih.gov/?term=Whittier+DE
 ---
 
-Dr. Danielle Whittier is the Principal Investigator of the Pediatric Musculoskeletal Imaging Lab at the University of Calgary. Her research brings together clinical imaging, preclinical models, and computational approaches to understand how growing bones develop, adapt, repair, and respond to disease.
+Dr. Danielle Whittier is a Principal Investigator of the Pediatric Musculoskeletal Imaging Lab at the University of Calgary. Her research brings together clinical imaging, preclinical models, and computational approaches to understand how growing bones develop, adapt, repair, and respond to disease.
 
 Her lab focuses on pediatric bone health across a “bench to bedside and back again” research program. Clinical studies use advanced and multimodal imaging to study bone growth, development, and recovery in children and adolescents affected by chronic and complex diseases. Preclinical studies use experimental models to investigate bone mechanobiology during growth, including how disease and external factors influence normal skeletal behaviour.
 
@@ -34,7 +34,7 @@ Her lab focuses on pediatric bone health across a “bench to bedside and back a
 
 Dr. Whittier’s research program develops and applies imaging tools across scales, from cellular- and tissue-level bone structure to whole-bone development and strength. The lab uses approaches including high-resolution peripheral quantitative computed tomography (HR-pQCT), microCT, histology, experimental biomechanics, and computational modelling to study the growing skeleton.
 
-Current research themes include bone mechanoregulation during growth, in vivo assessment of pediatric fracture healing, the impact of childhood obesity on bone strength and growth, and advanced imaging to monitor juvenile idiopathic arthritis.
+Current research themes include [bone mechanoregulation during growth]({{ 'research/projects/bone-mechanoregulation-during-growth' | relative_url }}), [in vivo assessment of pediatric fracture healing]({{ 'research/projects/pediatric-fracture-healing' | relative_url }}), [the impact of childhood obesity on bone strength and growth]({{ 'research/projects/childhood-obesity-bone-strength-growth' | relative_url }}), and [advanced imaging to monitor juvenile idiopathic arthritis]({{ 'research/projects/juvenile-idiopathic-arthritis-imaging' | relative_url }}).
 
 ## Teaching
 
@@ -43,4 +43,4 @@ Current research themes include bone mechanoregulation during growth, in vivo as
 
 ## Opportunities
 
-The lab is interested in hearing from motivated trainees with backgrounds in engineering, computer science, biomedical sciences, biological sciences, biomechanics, and related STEM fields. Prospective graduate students, postdoctoral fellows, research assistants, honours students, and summer students are encouraged to visit the Join Us page for current opportunities and inquiry instructions.
+The lab is interested in hearing from motivated trainees with backgrounds in engineering, computer science, biomedical sciences, biological sciences, biomechanics, and related STEM fields. Prospective graduate students, postdoctoral fellows, research assistants, honours students, and summer students are encouraged to visit the [Join Us page]({{ 'join' | relative_url }}) for current opportunities and inquiry instructions.

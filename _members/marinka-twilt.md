@@ -9,7 +9,7 @@ links:
   profile: https://profiles.ucalgary.ca/marinka-twilt
 ---
 
-Dr. Marinka Twilt is a Full Professor in the Department of Pediatrics at the Cumming School of Medicine, University of Calgary. Her research focuses on pediatric rheumatology and the development of personalized medicine strategies for children with rheumatic diseases through research and innovation.
+Dr. Marinka Twilt is a Principal Investigator of the Pediatric Musculoskeletal Imaging Lab and a Full Professor in the Department of Pediatrics at the Cumming School of Medicine, University of Calgary. Her research focuses on pediatric rheumatology and the development of personalized medicine strategies for children with rheumatic diseases through research and innovation.
 
 ## Affiliations
 

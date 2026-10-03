@@ -1,0 +1,5 @@
+<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+  <circle cx="24" cy="19" r="14" />
+  <path transform="rotate(-45 24 19)" d="M24 11c-2-3-6-2-5 1-3 2 0 6 3 4v7c-3-2-6 2-3 4-1 3 3 4 5 1 2 3 6 2 5-1 3-2 0-6-3-4v-7c3 2 6-2 3-4 1-3-3-4-5-1Z" />
+  <path d="M10 35l14 7 14-7M12 40l12 6 12-6" />
+</svg>

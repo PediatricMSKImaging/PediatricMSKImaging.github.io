@@ -11,6 +11,6 @@ links:
 
 Camryn McMillan is a biosystems engineering graduate from the University of Manitoba, where she completed a BSc in Biosystems Engineering with a Biomedical Engineering specialization in 2024. Her interest in bone and joint health grew from her involvement on the Biomedical Engineering Design Team during her undergraduate degree.
 
-Camryn is a PhD student in the Pediatric Musculoskeletal Imaging Lab. Her project focuses on the impact of childhood obesity on adolescent bone growth, fracture risk, and fracture healing.
+Camryn is a PhD student in the Pediatric Musculoskeletal Imaging Lab. Her project focuses on the impact of [childhood obesity on adolescent bone growth and fracture risk]({{ 'research/projects/childhood-obesity-bone-strength-growth' | relative_url }}), as well as [fracture healing]({{ 'research/projects/pediatric-fracture-healing' | relative_url }}).
 
 Outside of the lab, Camryn enjoys slo-pitch, curling, skiing, crocheting, and hanging out with her cat Harvey.

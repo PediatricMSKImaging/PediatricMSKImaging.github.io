@@ -3,106 +3,14 @@
 
 .team-page {
   --team-card-gap: 16px;
-  --team-card-radius: 18px;
+  --team-card-radius: 10px;
   --team-card-border: color-mix(in srgb, var(--text) 12%, transparent);
   position: relative;
   z-index: 1;
 }
 
-main > section:has(.team-intro-band) {
-  position: relative;
-  overflow: hidden;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background:
-    radial-gradient(circle at 0 10%, rgba(255, 107, 87, 0.12) 0 120px, transparent 121px),
-    radial-gradient(circle at 92% 0, rgba(215, 25, 32, 0.11) 0 130px, transparent 131px),
-    #ffffff !important;
-}
-
-main > section:has(.team-intro-band)::before,
-main > section:has(.team-intro-band)::after {
-  content: "";
-  position: absolute;
-  pointer-events: none;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
-main > section:has(.team-intro-band)::before {
-  left: max(28px, calc((100% - 1000px) / 2));
-  top: 44px;
-  width: 110px;
-  height: 110px;
-  background-image: url("/images/doodle-rocket.svg");
-  transform: rotate(-8deg);
-}
-
-main > section:has(.team-intro-band)::after {
-  right: max(44px, calc((100% - 1000px) / 2 + 30px));
-  top: 52px;
-  width: 80px;
-  height: 80px;
-  background-image: url("/images/doodle-star.svg");
-  transform: rotate(12deg);
-}
-
-.team-intro-band h1 {
-  position: relative;
-  width: fit-content;
-  margin: 0 auto 18px;
-  color: var(--dark-gray);
-  font-family: var(--display);
-  font-size: clamp(3rem, 7vw, 4.8rem);
-  font-weight: var(--regular);
-  line-height: 0.9;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.team-intro-band h1::after {
-  content: "";
-  position: absolute;
-  left: 8%;
-  right: 8%;
-  bottom: -8px;
-  height: 9px;
-  border-radius: 999px;
-  background: var(--secondary);
-  transform: rotate(-1deg);
-}
-
-.team-intro-band p {
-  max-width: 660px;
-  margin: 0 auto;
-  color: var(--dark-gray);
-  font-size: 1.08rem;
-  line-height: 1.55;
-  text-align: center;
-}
-
 main > section:has(.team-page) {
-  position: relative;
-  overflow: hidden;
-  background:
-    radial-gradient(circle at 2% 88%, rgba(56, 189, 248, 0.14) 0 165px, transparent 166px),
-    radial-gradient(circle at 100% 78%, rgba(255, 107, 87, 0.18) 0 190px, transparent 191px),
-    radial-gradient(circle at 88% 12%, rgba(255, 107, 87, 0.10) 0 90px, transparent 91px),
-    linear-gradient(180deg, #fff5f5 0%, #fffdf8 48%, #ffffff 100%) !important;
-}
-
-main > section:has(.team-page)::before {
-  content: "";
-  position: absolute;
-  left: -18px;
-  bottom: 72px;
-  width: 150px;
-  height: 150px;
-  pointer-events: none;
-  opacity: 0.35;
-  background-image: radial-gradient(circle, rgba(14, 165, 233, 0.42) 2px, transparent 3px);
-  background-size: 22px 22px;
+  background: var(--background);
 }
 
 .team-page h2 {
@@ -113,26 +21,25 @@ main > section:has(.team-page)::before {
   margin-bottom: 18px;
   padding: 0;
   border: 0;
-  color: var(--primary);
+  color: var(--text);
   font-family: var(--heading);
   font-size: clamp(1.5rem, 3vw, 1.9rem);
-  font-weight: var(--bold);
+  font-weight: var(--semi-bold);
   letter-spacing: 0;
 }
 
 .team-photo-callout {
   display: flex;
+  text-align: left;
   align-items: center;
   justify-content: space-between;
   gap: 18px;
   margin: 0 0 30px;
   padding: 18px 20px;
-  border: 1px solid rgba(23, 25, 31, 0.08);
-  border-radius: 20px;
-  background:
-    radial-gradient(circle at 3% 20%, rgba(255, 107, 87, 0.14) 0 56px, transparent 57px),
-    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(255, 253, 248, 0.92));
-  box-shadow: 0 16px 42px rgba(90, 20, 20, 0.08);
+  border: 1px solid var(--outline);
+  border-radius: var(--rounded);
+  background: var(--surface);
+  box-shadow: var(--shadow);
 }
 
 .team-photo-callout strong,
@@ -151,22 +58,9 @@ main > section:has(.team-page)::before {
   margin-top: 3px;
 }
 
-.team-photo-callout a {
+.team-photo-callout .button {
   flex-shrink: 0;
-  padding: 10px 16px;
-  border-radius: 999px;
-  background: var(--primary);
-  color: white;
-  font-weight: var(--bold);
-  text-decoration: none;
-  box-shadow: 0 10px 24px rgba(215, 25, 32, 0.18);
-}
-
-.team-page h2::after {
-  content: "✦";
-  color: var(--secondary);
-  font-size: 1.3em;
-  line-height: 1;
+  margin: 0;
 }
 
 .photo-gallery {
@@ -178,10 +72,10 @@ main > section:has(.team-page)::before {
 
 .photo-card {
   overflow: hidden;
-  border: 1px solid rgba(23, 25, 31, 0.08);
-  border-radius: 22px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(255, 253, 248, 0.92));
-  box-shadow: 0 16px 42px rgba(90, 20, 20, 0.08);
+  border: 1px solid var(--outline);
+  border-radius: var(--rounded);
+  background: var(--surface);
+  box-shadow: var(--shadow);
 }
 
 .photo-card--large {
@@ -193,7 +87,7 @@ main > section:has(.team-page)::before {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
-  background: #fff0f1;
+  background: var(--background);
 }
 
 .photo-card--large img {
@@ -208,10 +102,7 @@ main > section:has(.team-page)::before {
   font-family: var(--display);
   font-size: 2rem;
   letter-spacing: 0.03em;
-  background:
-    radial-gradient(circle at 22% 22%, rgba(215, 25, 32, 0.16) 0 54px, transparent 55px),
-    radial-gradient(circle at 88% 80%, rgba(255, 107, 87, 0.22) 0 86px, transparent 87px),
-    linear-gradient(135deg, #fff0f1, #f5fbff);
+  background: var(--background);
 }
 
 .photo-card h3,
@@ -222,7 +113,7 @@ main > section:has(.team-page)::before {
 
 .photo-card h3 {
   margin-top: 16px;
-  margin-bottom: 6px;
+  margin-bottom: 18px;
   color: var(--text);
   font-size: 1.2rem;
 }
@@ -259,19 +150,18 @@ main > section:has(.team-page)::before {
   width: 100%;
   max-width: none;
   margin: 0;
-  border: 1px solid rgba(23, 25, 31, 0.08);
+  border: 1px solid var(--outline);
   border-radius: var(--team-card-radius);
-  background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(255, 253, 248, 0.92));
-  box-shadow: 0 16px 42px rgba(90, 20, 20, 0.08);
+  background: var(--surface);
+  box-shadow: var(--shadow);
   transition:
     transform var(--transition),
     box-shadow var(--transition);
 }
 
 .team-page .portrait:hover {
-  box-shadow: 0 20px 48px rgba(90, 20, 20, 0.13);
-  transform: translateY(-4px);
+  border-color: #c8cbc8;
+  box-shadow: var(--shadow);
 }
 
 .team-page .portrait[data-style="team-featured"] {
@@ -298,15 +188,15 @@ main > section:has(.team-page)::before {
   grid-template-columns: 68px minmax(0, 1fr);
   gap: 12px;
   padding: 11px 12px;
-  border-radius: 14px;
+  border-radius: var(--rounded);
   box-shadow: none;
 }
 
 .team-page .portrait-image {
   grid-row: 1 / span 3;
   margin: 0;
-  border: 4px solid rgba(255, 255, 255, 0.86);
-  background: radial-gradient(circle, rgba(246, 181, 27, 0.18), rgba(246, 181, 27, 0.05));
+  border: 1px solid var(--outline);
+  background: var(--surface);
   box-shadow: none;
 }
 
@@ -316,12 +206,12 @@ main > section:has(.team-page)::before {
 
 .team-page .portrait[data-style="team-card"] .portrait-image {
   width: 108px;
-  padding: 6px;
+  padding: 2px;
 }
 
 .team-page .portrait[data-style="team-alumni"] .portrait-image {
   width: 68px;
-  padding: 5px;
+  padding: 2px;
 }
 
 .team-page .portrait .icon {
@@ -356,9 +246,9 @@ main > section:has(.team-page)::before {
 
 .team-page .portrait-description {
   margin-top: 2px;
-  color: var(--primary);
+  color: var(--gray);
   font-size: 0.94rem;
-  font-weight: var(--bold);
+  font-weight: var(--semi-bold);
   line-height: 1.25;
 }
 
@@ -367,22 +257,6 @@ main > section:has(.team-page)::before {
   color: var(--gray);
   font-size: 0.88rem;
   line-height: 1.25;
-}
-
-.team-page .portrait-wrapper:nth-child(4n + 1) .portrait-image {
-  background: radial-gradient(circle, rgba(127, 87, 214, 0.22), rgba(127, 87, 214, 0.06));
-}
-
-.team-page .portrait-wrapper:nth-child(4n + 2) .portrait-image {
-  background: radial-gradient(circle, rgba(56, 189, 248, 0.22), rgba(56, 189, 248, 0.06));
-}
-
-.team-page .portrait-wrapper:nth-child(4n + 3) .portrait-image {
-  background: radial-gradient(circle, rgba(237, 114, 130, 0.22), rgba(237, 114, 130, 0.06));
-}
-
-.team-page .portrait-wrapper:nth-child(4n + 4) .portrait-image {
-  background: radial-gradient(circle, rgba(61, 139, 214, 0.22), rgba(61, 139, 214, 0.06));
 }
 
 .team-page .portrait[data-style="team-alumni"] .portrait-name {
@@ -427,10 +301,4 @@ main > section:has(.team-page)::before {
     grid-template-columns: 1fr;
   }
 
-  main > section:has(.team-intro-band)::before,
-  main > section:has(.team-intro-band)::after {
-    opacity: 0.25;
-    width: 72px;
-    height: 72px;
-  }
 }

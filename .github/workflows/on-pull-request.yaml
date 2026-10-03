@@ -15,9 +15,11 @@ permissions:
 
 jobs:
   update-citations:
+    if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
     uses: ./.github/workflows/update-citations.yaml
     secrets: inherit
 
   build-preview:
     needs: update-citations
+    if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
     uses: ./.github/workflows/build-preview.yaml

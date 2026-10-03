@@ -6,7 +6,7 @@ status: current
 affiliation: University of Calgary
 ---
 
-Bruna Vieira de Castro is going into her fourth and final year in the BHSc Biomedical Sciences (Honours) program at the University of Calgary.
+Bruna Vieira de Castro is an undergraduate student in the BHSc Biomedical Sciences (Honours) program at the University of Calgary.
 
 Over the 2025–2026 school year, she completed a group project in the Pediatric MSK Imaging Lab investigating the effect of the lacunar network and whole-bone stress on bone fragility in mouse tibiae. As of 2026, she is working in the lab as an undergraduate summer student to develop an understanding of cellular organization in mouse tibiae across key developmental stages of rapid skeletal growth.
 

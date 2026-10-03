@@ -1,5 +1,6 @@
 ---
 title: Contact
+description: Contact the Pediatric MSK Imaging Lab about studies, research training, collaboration, and resources, and find directions to HRIC 3C45 in Calgary.
 nav:
   order: 8
   tooltip: Email and phone
@@ -15,9 +16,9 @@ nav:
 
 {% include section.html %}
 
-{% include button.html type="email" text="pediatricmsk@ucalgary.ca" link="mailto:pediatricmsk@ucalgary.ca" %}
+{% include button.html type="email" text="pediatricmsk@ucalgary.ca" link="pediatricmsk@ucalgary.ca" %}
 
-{% include button.html type="phone" text="403-210-7368" link="tel:+1-403-210-7368" %}
+{% include button.html type="phone" text="403-210-7368" link="+1-403-210-7368" %}
 
 **Mailing address**  
 Pediatric Musculoskeletal Imaging Laboratory, HRIC 3C45  

@@ -14,3 +14,8 @@ a:hover {
 a:not([href]) {
   color: var(--text);
 }
+
+:is(a, button, input, select, textarea):focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 4px;
+}

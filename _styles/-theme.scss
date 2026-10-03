@@ -8,14 +8,17 @@
   --accent-coral: #ff6b57;
   --accent-gold: #f6c445;
   --accent-mint: #eaf5ff;
-  --text: #17191f;
-  --background: #ffffff;
-  --background-alt: #fff1f2;
-  --light-gray: #eee5d8;
-  --gray: #5f6673;
+  --text: #20262d;
+  --background: #faf9f6;
+  --background-alt: #faf9f6;
+  --surface: #ffffff;
+  --clinical-tint: #eef4f6;
+  --preclinical-tint: #f5f0e9;
+  --light-gray: #e9e7e2;
+  --gray: #626b73;
   --dark-gray: #151922;
   --overlay: #5a141414;
-  --outline: #eadfce;
+  --outline: #e4e3de;
 }
 [data-dark="true"] {
   --primary: #d71920;
@@ -23,21 +26,24 @@
   --accent-coral: #ff6b57;
   --accent-gold: #f6c445;
   --accent-mint: #eaf5ff;
-  --text: #17191f;
-  --background: #ffffff;
-  --background-alt: #fff1f2;
-  --light-gray: #eee5d8;
-  --gray: #5f6673;
+  --text: #20262d;
+  --background: #faf9f6;
+  --background-alt: #faf9f6;
+  --surface: #ffffff;
+  --clinical-tint: #eef4f6;
+  --preclinical-tint: #f5f0e9;
+  --light-gray: #e9e7e2;
+  --gray: #626b73;
   --dark-gray: #151922;
   --overlay: #5a141414;
-  --outline: #eadfce;
+  --outline: #e4e3de;
 }
 
 :root {
   // font families
   --title: "Barlow", sans-serif;
   --heading: "Barlow", sans-serif;
-  --display: "Chewy", "Baloo 2", "Marker Felt", cursive;
+  --display: "Baloo 2", sans-serif;
   --body: "Barlow", sans-serif;
   --code: "Roboto Mono", monospace;
 
@@ -53,11 +59,11 @@
   --bold: 600;
 
   // text line spacing
-  --spacing: 2;
+  --spacing: 1.7;
   --compact: 1.5;
 
   // effects
-  --rounded: 18px;
-  --shadow: 0 20px 60px 0 var(--overlay);
+  --rounded: 10px;
+  --shadow: 0 3px 12px rgba(23, 25, 31, 0.035);
   --transition: 0.2s ease;
 }

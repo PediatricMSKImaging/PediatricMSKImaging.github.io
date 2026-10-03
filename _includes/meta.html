@@ -7,6 +7,7 @@
   {% assign title = nil %}
 {% endif %}
 
+{% assign schema_title = title | default: site.title %}
 {% assign title = title | xml_escape %}
 
 {% assign fulltitle = "" | split: "," %}
@@ -21,16 +22,17 @@
 {% assign subtitle = site.subtitle %}
 
 {% assign description = page.description | default: site.description %}
+{% if page.collection == 'members' %}
+  {% capture description %}Meet {{ page.name | strip_html }}{% if page.status == 'past' %}, a past member of{% else %}, a member of{% endif %} the Pediatric MSK Imaging Lab. Lab role: {{ page.description | default: site.data.types[page.role].description }}.{% if page.affiliation %} Affiliation: {{ page.affiliation }}.{% endif %}{% if page.time_in_lab %} Time in lab: {{ page.time_in_lab }}.{% endif %}{% endcapture %}
+{% endif %}
 {% if site.subtitle %}
   {% capture description -%}
     {{ site.subtitle }}. {{ description }}
   {%- endcapture %}
 {% endif %}
-{% capture url -%}
-  {{ site.url }}{{ site.baseurl }}
-{%- endcapture %}
+{% assign url = page.url | absolute_url %}
 
-{% assign description = description | xml_escape %}
+{% assign description = description | strip_html | strip %}
 
 {% assign png = "images/icon.png" | file_exists %}
 {% assign jpg = "images/icon.jpg" | file_exists %}
@@ -38,7 +40,7 @@
 
 {% assign jpg = "images/share.jpg" | file_exists %}
 {% assign png = "images/share.png" | file_exists %}
-{% assign share = jpg | default: png | absolute_url %}
+{% assign share = page.share_image | default: page.image | default: jpg | default: png | absolute_url %}
 
 {% assign published = page.date | date_to_xmlschema %}
 {% assign updated = page.last_modified_at | date_to_xmlschema %}
@@ -50,19 +52,20 @@
 <title>{{ fulltitle }}</title>
 
 <link rel="icon" href="{{ icon }}">
+<link rel="canonical" href="{{ url | escape }}">
 
 <meta name="title" content="{{ title }}">
-<meta name="description" content="{{ description }}">
+<meta name="description" content="{{ description | escape }}">
 
 <meta property="og:title" content="{{ title }}">
-<meta property="og:site_title" content="{{ site.title | xml_escape }}">
-<meta property="og:description" content="{{ description }}">
+<meta property="og:site_name" content="{{ site.title | xml_escape }}">
+<meta property="og:description" content="{{ description | escape }}">
 <meta property="og:url" content="{{ url }}">
 <meta property="og:image" content="{{ share }}">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="{{ title }}">
-<meta property="twitter:description" content="{{ description }}">
+<meta property="twitter:description" content="{{ description | escape }}">
 <meta property="twitter:url" content="{{ url }}">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="{{ share }}">
@@ -83,15 +86,17 @@
     "@context": "https://schema.org",
     {% if page.author %}
       "@type": "BlogPosting",
-      "author": { "@type": "Person", "name": "{{ title }}" },
+      "author": { "@type": "Person", "name": {{ page.author | jsonify }} },
       "datePublished": "{{ published }}",
       "dateModified": "{{ updated }}",
+    {% elsif page.collection == 'members' %}
+      "@type": "Person",
     {% else %}
       "@type": "WebSite",
     {% endif %}
-    "name": "{{ title }}",
-    "description": "{{ description }}",
-    "headline": "{{ title }}",
+    "name": {{ schema_title | jsonify }},
+    "description": {{ description | jsonify }},
+    "headline": {{ schema_title | jsonify }},
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "{{ icon }}" }
