@@ -1,0 +1,49 @@
+main > section:has(.subpage-hero.subpage-hero--participate) {
+  background: linear-gradient(110deg, #fff5f1, #fffaf0);
+  border-bottom-color: #eadbd5;
+}
+
+.subpage-hero.subpage-hero--participate h1 {
+  color: var(--primary);
+  font-family: "Fredoka", var(--heading);
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+main > section:has(.subpage-hero.subpage-hero--participate) + section h2 {
+  font-family: "Fredoka", var(--heading);
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+main:has(.subpage-hero--participate) .playful-icon {
+  border-radius: 50%;
+}
+
+main:has(.subpage-hero--participate) .study-panel {
+  border-color: #eadbd5;
+  border-top: 3px solid var(--primary);
+  border-radius: 18px;
+  background: #fffdfb;
+  box-shadow: none;
+}
+
+main:has(.subpage-hero--participate) .study-panel:nth-child(even) {
+  border-top-color: #d6aa45;
+  background: #fffdf6;
+}
+
+main:has(.subpage-hero--participate) .study-panel:hover {
+  border-color: var(--primary);
+}
+
+main:has(.subpage-hero--participate) .study-panel:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 4px;
+}
+
+main:has(.subpage-hero--participate) .visit-panel--partner {
+  border-radius: 18px;
+}
+
+/*# sourceMappingURL=participate.css.map */

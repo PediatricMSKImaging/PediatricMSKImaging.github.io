@@ -11,9 +11,10 @@ button {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  min-height: 44px;
   max-width: calc(100% - 5px - 5px);
   margin: 5px;
-  padding: 8px 15px;
+  padding: 10px 16px;
   border: none;
   border-radius: var(--rounded);
   background: var(--primary);
@@ -33,7 +34,19 @@ button {
   color: var(--background);
 }
 
+.button[data-style=download] {
+  border: 1px solid var(--outline);
+  background: var(--surface);
+  color: var(--primary);
+}
+.button[data-style=download]:hover {
+  border-color: var(--primary);
+  background: #fff5f0;
+  color: var(--primary);
+}
+
 .button[data-style=bare] {
+  min-height: 0;
   padding: 5px;
   background: none;
   color: var(--primary);

@@ -1,0 +1,88 @@
+html:has(.section-shortcuts) {
+  scroll-behavior: smooth;
+}
+
+.section-shortcuts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  margin: 0 0 28px;
+  padding: 0 0 20px;
+  border-bottom: 1px solid var(--outline);
+  font-family: var(--heading);
+  font-size: 0.95rem;
+  font-weight: var(--semi-bold);
+}
+
+.section-shortcuts > a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  max-width: 100%;
+  padding: 8px 16px;
+  border: 1px solid var(--outline);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  line-height: 1.35;
+  text-align: center;
+  text-decoration: none;
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
+}
+
+.section-shortcuts > a:hover,
+.section-shortcuts > a:focus-visible {
+  border-color: var(--primary);
+  background: #fff5f0;
+  color: var(--primary);
+}
+
+main > section:has(> .section-shortcuts) {
+  padding-top: 20px;
+}
+
+main > section:has(> .section-shortcuts) > h2:first-of-type,
+.section-shortcuts + .team-page > h2:first-child {
+  margin-top: 0;
+}
+
+.section-shortcuts--nested {
+  margin: 18px 0 24px;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+main :is(h2, h3, h4, h5, h6)[id],
+main > section[id],
+main .research-group[id],
+main .collaboration-network[id] {
+  scroll-margin-top: 110px;
+}
+
+.page-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 24px 0 32px;
+}
+
+.page-actions .button {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .section-shortcuts > a {
+    padding: 8px 12px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html:has(.section-shortcuts) {
+    scroll-behavior: auto;
+  }
+}
+
+/*# sourceMappingURL=shortcuts.css.map */

@@ -1,0 +1,58 @@
+body.primary-page main h1,
+body.primary-page main h2,
+body.primary-page main h3,
+body.primary-page main h4,
+body.primary-page main h5,
+body.primary-page main h6 {
+  font-family: "Fredoka", var(--heading);
+  letter-spacing: 0;
+}
+
+body.primary-page .subpage-hero h1,
+body.primary-page .team-intro-band h1 {
+  font-weight: 600;
+}
+
+main > section:has(.subpage-hero, .team-intro-band):not(:has(.subpage-hero--custom-banner)) {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: #fff5f0;
+  border-bottom-color: #eadbd5;
+}
+main > section:has(.subpage-hero, .team-intro-band):not(:has(.subpage-hero--custom-banner))::after {
+  content: "";
+  display: block;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  width: auto;
+  height: auto;
+  border: 0;
+  border-radius: 0;
+  transform: none;
+  background: url("/images/banner-trabecular.jpg") right center/1050px auto no-repeat;
+  opacity: 0.8;
+  mask-image: linear-gradient(to right, transparent 30%, rgba(0, 0, 0, 0.08) 55%, #000 100%);
+  pointer-events: none;
+}
+main > section:has(.subpage-hero, .team-intro-band):not(:has(.subpage-hero--custom-banner)):has(.subpage-hero--participate)::after {
+  opacity: 0.65;
+}
+@media (max-width: 600px) {
+  main > section:has(.subpage-hero, .team-intro-band):not(:has(.subpage-hero--custom-banner))::after {
+    background-size: auto 100%;
+    opacity: 0.4;
+    mask-image: linear-gradient(to right, transparent 40%, rgba(0, 0, 0, 0.12) 70%, rgba(0, 0, 0, 0.7) 100%);
+  }
+  main > section:has(.subpage-hero, .team-intro-band):not(:has(.subpage-hero--custom-banner)):has(.subpage-hero--participate)::after {
+    opacity: 0.32;
+  }
+}
+
+.subpage-hero:not(.subpage-hero--custom-banner) p,
+.team-intro-band:not(.subpage-hero--custom-banner) p {
+  color: var(--text);
+}
+
+/*# sourceMappingURL=banner.css.map */
