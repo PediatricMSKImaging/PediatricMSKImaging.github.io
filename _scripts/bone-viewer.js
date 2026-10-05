@@ -66,6 +66,7 @@
       rotate(...directions[event.key]);
     }, true);
     viewer.addEventListener("load", () => {
+      viewer.dismissPoster();
       loading.hidden = true;
       status.textContent = "";
       explorer.dataset.loaded = "true";
